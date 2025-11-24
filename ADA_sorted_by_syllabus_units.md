@@ -1061,8 +1061,6 @@ Explain following algorithms in details: Euclid's GCD algorithm.
 
 ---
 
-# COMPREHENSIVE MAPPING SUMMARY
-
 ## Total Questions by Unit:
 - **Unit 1:** ~50+ questions
 - **Unit 2:** ~35+ questions
@@ -1071,13 +1069,12 @@ Explain following algorithms in details: Euclid's GCD algorithm.
 - **Unit 5:** ~15+ questions
 - **Unit 6:** ~35+ questions
 
-**Grand Total: 190+ questions organized by syllabus unit**
+*Grand Total: 190+ questions organized by syllabus unit*
 
 ---
 
-# QUESTIONS SKIPPED (DIAGRAM-BASED)
-
 *45+ questions across all papers requiring graph diagrams, matrix visualizations, or state space trees have been excluded from this compilation.*
 
-**Status: ✅ SYLLABUS-ORGANIZED COMPILATION COMPLETE**
+
+**The papers were sourced courtesy of my senior Madhav Gupta (2K21/CO/262), many thanks to him.**
 
