@@ -1,11 +1,29 @@
-# Algorithm Design and Analysis - Questions Sorted by Syllabus Units
-## Complete Compilation from 23 Exam Papers (2012-2023)
+# Algorithm Design and Analysis – Questions Sorted by Syllabus Units
+## Compiled from 23 Exam Papers (2012–2023)
 
-**Total Questions: 190+**  
-**Organization: 6 Units as per DTU Syllabus**  
-**Date Range: May 2012 - March 2023**
+**Total Questions:** 190+  
+**Organization:** 6 Units as per DTU Syllabus  
+**Date Range:** May 2012 – March 2023  
+
+> **Acknowledgement:** The papers were sourced courtesy of my senior Madhav Gupta. Many thanks to him.
 
 ---
+
+## Table of Contents
+
+- [UNIT 1: INTRODUCTION](#unit-1-introduction---algorithmic-efficiency-run-time-analysis-asymptotic-notations--masters-theorem)
+  - [1.1 Asymptotic Notations (Big-O, Omega, Theta)](#11-asymptotic-notations-big-o-omega-theta)
+  - [1.2 Master’s Theorem & Recurrence Relations](#12-masters-theorem--recurrence-relations)
+  - [1.3 Recurrence Tree Method & Substitution Method](#13-recurrence-tree-method--substitution-method)
+  - [1.4 Time Complexity Analysis of Programs](#14-time-complexity-analysis-of-programs)
+- [UNIT 2: SEARCHING AND SORTING](#unit-2-searching-and-sorting---divide-and-conquer-algorithms)
+- [UNIT 3: GREEDY METHOD](#unit-3-greedy-method---mst-shortest-paths-huffman-coding-activity-selection)
+- [UNIT 4: DYNAMIC PROGRAMMING & BACKTRACKING](#unit-4-dynamic-programming--backtracking)
+- [UNIT 5: BRANCH AND BOUND](#unit-5-branch-and-bound)
+- [UNIT 6: COMPUTATIONAL COMPLEXITY](#unit-6-computational-complexity---p-np-np-hard-np-complete)
+
+---
+
 
 # UNIT 1: INTRODUCTION - ALGORITHMIC EFFICIENCY, RUN TIME ANALYSIS, ASYMPTOTIC NOTATIONS & MASTER'S THEOREM
 ## Contact Hours: 6
