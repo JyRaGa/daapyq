@@ -1090,6 +1090,7 @@ Explain following algorithms in details: Euclid's GCD algorithm.
 **Q1(b).** Write an efficient algorithm to find prime numbers from 1 to n, where n is the input from the user. Discuss the time and space complexity. [CO1][2M]
 
 **Q1(c).** What is the order of the return value of `k` produced by the following function:
+```
 int foo(int n) {
 int i, j, k = 0;
 for (i = n/2; i <= n; i++)
@@ -1097,25 +1098,26 @@ for (j = 2; j <= n; j = j * 2)
 k = k + n/2;
 return k;
 }
+```
 [CO1][2M]
 
 ### Unit 2: Searching and Sorting
-**Q2(b).** You are given `k` sorted integer arrays (each array of size `n`) in the form of a 2D integer matrix of size `k × n`. Write an optimized algorithm to merge them into a single array and return it. Also discuss the time and space complexity of the proposed algorithm.
+**Q2(b).** You are given `k` sorted integer arrays (each array of size `n`) in the form of a 2D integer matrix of size `k × n`. Write an optimized algorithm to merge them into a single array and return it. Also discuss the time and space complexity of the proposed algorithm. [CO2][5M]
 *Example:* Input: `k = 3`, `n = 4`, array = `{{1, 3, 5, 7}, {2, 4, 6, 8}, {0, 9, 10, 11}}`
 Output: `0 1 2 3 4 5 6 7 8 9 10 11`
-[CO2][5M]
+
 
 **Q5(b).** The operation `HEAP-delete(A, item)` deletes the item in a binary heap `A` containing `n` elements. Propose an implementation of `HEAP-delete` that runs in `O(log n)` time for a max heap. [4M][CO3]
 
 ### Unit 3: Greedy Method
 **Q1(e).** Let `G` be a connected undirected graph of 100 vertices and 300 edges. The weight of a minimum spanning tree of `G` is 500. When the weight of each edge of `G` is increased by 5, then what would be the weight of a minimum spanning tree? [CO3][2M]
 
-**Q4(a).** Find the greedy solution for the following job sequencing problem with deadlines with a total number of jobs `n = 7`.
+**Q4(a).** Find the greedy solution for the following job sequencing problem with deadlines with a total number of jobs `n = 7`. [3M][CO3]
+
 | Job S. No | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 |---|---|---|---|---|---|---|---|
 | Profit | 3 | 5 | 20 | 18 | 1 | 6 | 30 |
 | Deadline | 1 | 3 | 4 | 3 | 2 | 1 | 2 |
-[3M][CO3]
 
 ### Unit 4: Dynamic Programming & Backtracking
 **Q2(a).** How can the backtracking algorithm be optimized for solving the 8-queen problem, and what are the key steps involved in implementing this algorithm to ensure that no two queens attack each other on an 8x8 chessboard? [CO5][5M]
@@ -1124,13 +1126,17 @@ Output: `0 1 2 3 4 5 6 7 8 9 10 11`
 | Length | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 |---|---|---|---|---|---|---|---|---|
 | Price | 1 | 5 | 8 | 9 | 10 | 17 | 17 | 20 |
+
 Solve this problem using dynamic programming strategy. Determine the maximum profit. [CO5][6M]
 
 **Q3(b).** Perform the matrix chain multiplication using the dynamic programming approach. Given four matrices A, B, C and D with order `40x20`, `20x30`, `30x10`, and `10x30`, respectively. Find the minimum number of multiplications required to produce the output. [CO5][4M]
 
 **Q5(a).** Tower of Hanoi is a mathematical puzzle with three rods (S, D, T) and n disks.
+
 i). Write a recursive code to move all `n` disks from S (source) to D (destination).
+
 ii). Write the recurrence relation for the recursive code and solve it. Discuss the time complexity for Tower of Hanoi.
+
 iii). How many moves are required to move `n` disks from S to D. [6M][CO3]
 
 ### Unit 5: Branch and Bound
@@ -1141,18 +1147,18 @@ iii). How many moves are required to move `n` disks from S to D. [6M][CO3]
 
 
 ## Total Questions by Unit:
-- **Unit 1:** ~50+ questions
-- **Unit 2:** ~35+ questions
-- **Unit 3:** ~45+ questions
-- **Unit 4:** ~55+ questions
-- **Unit 5:** ~15+ questions
+- **Unit 1:** ~53+ questions
+- **Unit 2:** ~37+ questions
+- **Unit 3:** ~47+ questions
+- **Unit 4:** ~59+ questions
+- **Unit 5:** ~16+ questions
 - **Unit 6:** ~35+ questions
 
-*Grand Total: 190+ questions organized by syllabus unit*
+*Grand Total: 201+ questions organized by syllabus unit*
 
 ---
 
-*45+ questions across all papers requiring graph diagrams, matrix visualizations, or state space trees have been excluded from this compilation.*
+*46+ questions across all papers requiring graph diagrams, matrix visualizations, or state space trees have been excluded from this compilation.*
 
 
 **The papers were sourced courtesy of my senior Madhav Gupta (2K21/CO/262), many thanks to him.**
