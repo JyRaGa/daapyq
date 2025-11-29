@@ -47,6 +47,7 @@
     *   Maintenance Calculations
     *   Test Case Design
     *   Scenario Writing
+12. [**Selected Optional Problems**](#12-selected-optional-problems)
 
 ***
 
@@ -660,6 +661,37 @@ return valid;
 | **TOTAL TABLE-BASED QUESTIONS** | **17** |
 
 ***
+
+## **12. Selected Optional Questions (Mapped to Syllabus)**
+*These are high-value questions derived from previous years' papers and syllabus gaps. They are strictly aligned with Units 1, 4, 5, and 6.*
+
+- **Agile & Project Management (Unit 1 & 4):**
+  - Describe the **Extreme Programming (XP)** methodology. Explain key practices (Pair programming, TDD, CI), and how it differs from traditional waterfall.
+  - Explain the **Scrum framework**. Describe the three roles (Owner, Master, Team), three artifacts (Backlogs, Increment), and ceremonies (Sprints, Standups).
+
+- **Quality, Standards & Estimation (Unit 4):**
+  - Explain the 5 Levels of the **SEI Capability Maturity Model (CMM)** in detail (Initial, Managed, Defined, Managed, Optimizing).
+  - Differentiate between **ISO 9001** certification and **SEI CMM**. Why is CMM often considered better for software specifically?
+  - Explain the **Risk Management** process (Risk Matrix: Probability × Impact; Strategies: Avoid, Mitigate, Accept, Transfer).
+  - Explain **Three-Point Estimation (PERT)**. How do you calculate the Expected Value $E = \frac{(Optimistic + 4 \times MostLikely + Pessimistic)}{6}$?
+
+- **Maintenance & Configuration Management (Unit 6):**
+  - Explain **Configuration Management**. Discuss Configuration Items (CIs), CM Plan (CMP), and Activities (Identification, Control, Status Accounting, Audits).
+  - Explain **Reverse Engineering** in the context of legacy systems. What are the techniques (Wrapping, Componentization) and Scope (Code → Design → Specification)?
+  - Differentiate between **Adaptive** (environment changes) and **Perfective** (new requirements/enhancements) maintenance.
+
+- **Calculation Practice Problems (Must Practice):**
+  - **LOC-Based Estimation:** A project has 50,000 LOC and productivity of 300 LOC/pm. Calculate Effort ($50,000 / 300$), Staff needed for 12 months ($Effort / 12$), and Total Cost ($Staff \times Duration \times Salary$).
+  - **Risk-Adjusted COCOMO:** Calculate effort for a 100 KLOC project given specific effort multipliers (e.g., Complexity 1.30) by multiplying standard COCOMO effort by the product of cost drivers.
+  - **Test Case Design (Password):** Design **Equivalence Classes** (Valid vs. Invalid) for a password that must be 6-20 chars with 1 upper, 1 lower, and 1 digit.
+  - **Test Case Design (Age Category):** Design **Boundary Value Analysis** cases for age categories: Child (0-12), Teen (13-19), Adult (20-60).
+
+- **Low Priority / Check Syllabus (Unit 1 & 3 Gaps):**
+  - *(Verify if taught in class)* Explain the **V-Model** and how testing phases map to development phases.
+  - *(Verify if taught in class)* Explain the **Singleton** and **Factory** design patterns with examples.
+  - *(Verify if taught in class)* Compare **Monolithic** vs. **Microservices** architecture.
+
+---
 The most frequently asked topics, categorized by their weight and recurrence :-
 
 ### **🔥 High Priority (Most Repeated Topics)**
@@ -711,3 +743,4 @@ The most frequently asked topics, categorized by their weight and recurrence :-
 2.  **Diagram Practice:** Practice drawing a **DFD Level 1** and a **Use Case Diagram** for a generic system (like a Library or ATM), as this pattern repeats.
 
 3.  **Theory Memorization:** Memorize the **Spiral Model** phases and the **Types of Cohesion/Coupling** (from worst to best).
+
