@@ -1,6 +1,6 @@
 
 # **Software Engineering Question Bank**
-## **(Compiled from 24 Papers)**
+## **(Compiled from 25+ Papers)**
 
 ***
 ## Table of Contents
@@ -59,6 +59,10 @@
   - Discuss briefly the major areas of applications of a software.
   - What is the purpose of problem partitioning?
   - Why is documentation given importance in software development?
+  - What are **Software Myths**? Discuss how they affect the software process. Explain widely held myths among:
+      *   Management
+      *   Customers
+      *   Practitioners
 
 - **Process & Management:**
   - Explain the four P's of software management.
@@ -198,6 +202,7 @@
 - **Banking System:** Draw Use Case diagram (dependencies) and DFD for deposit.
 - **Library Management:** Draw Context diagram, 1-level DFD, and Structured Chart.
 - **Boehm Quality Model:** Explain with a block diagram.
+- Design a system for a metropolitan transport authority that provides **real-time, targeted notifications** to users. Unlike generic broadcasts, this system    must alert users **only** when disruptions occur on their specific route of interest and **only** at the relevant time (e.g., not when they are out of town): Draw Use Case Diagram & Draw a Level-1 DFD."
 
 ***
 
@@ -291,6 +296,11 @@
   - **B:** Inputs=24, Outputs=65, Enquiries=12, Files=12, Interfaces=4. (Complexity: average/moderate).
 
 - **COCOMO Calculations, see the tables:**
+ - A software team is working on a project with the following metrics:
+    * Total lines of code (LOC): 10,000
+    * Average productivity: 200 LOC/person-month
+    * Target timeline: 6 months
+    * Calculate:  1. Total effort required (in person-months). 2. Estimated number of people required to complete the project on time.
   - **Single Module:** Project size = 32,000 LOC (Organic). Calculate Effort & Time.
   - **Single Module:** Project size = 200 KLOC. Average experience. Calculate Effort, Time, Staff, Productivity.
   - **Single Module:** Project size = 400 KLOC. Calculate Effort & Time for all 3 modes (Organic, Semi, Embedded).
@@ -309,6 +319,7 @@
   - **Previous/Next Date:** Input day, month, year. Day $1 \leq \text{day} \leq 31$; Month $1 \leq \text{month} \leq 12$; Year $1900 \leq \text{year} \leq 2025$. Design **equivalence class** & **robust** test cases.
   - **Student Grades:** Grading rules provided. Design **equivalence class** test cases.
   - **Largest Number:** Largest of three integers (`1 \leq n \leq 200`). Design **equivalence class** test cases.
+  - Consider a program that accepts three positive integers (x, y, z) representing the sides of a triangle, where inputs are in the range. The output determines if the triangle is **Scalene, Isosceles, Equilateral, or Not a Triangle**. Design **Boundary Value Analysis (BVA)** test cases for this program.
 
 - **Scenario Writing:**
   - **Railway Reservation:** Identify actors/use cases. Write description for "reservation of train".
@@ -698,4 +709,5 @@ The most frequently asked topics, categorized by their weight and recurrence :-
 ### **Study Strategy Recommendation**
 1.  **Start with Calculations:** Master the **COCOMO** and **Function Point** formulas. These are "free marks" if you know the formula, as the tables are often provided.
 2.  **Diagram Practice:** Practice drawing a **DFD Level 1** and a **Use Case Diagram** for a generic system (like a Library or ATM), as this pattern repeats.
+
 3.  **Theory Memorization:** Memorize the **Spiral Model** phases and the **Types of Cohesion/Coupling** (from worst to best).
