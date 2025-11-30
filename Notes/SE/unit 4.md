@@ -1,6 +1,3 @@
-Here is the **perfected Unit 4 document**. It keeps the rigorous content of `unit-4.md` (providing the missing answers) but reformats it into the **clean tables and lists** you prefer.
-
-***
 
 # Unit 4: Software Design
 
@@ -102,4 +99,5 @@ A **Data Dictionary** is a repository that defines all data elements used in the
 ### 12. Logical Constraints in ER Diagrams
 *   **Cardinality:** How many instances relate? (1:1, 1:N, M:N).
 *   **Participation:** Is the relationship mandatory or optional? (e.g., A specific employee *must* have a department vs. a department *may* have employees).
+
 *   **Degree:** Unary (recursive), Binary (2 entities), Ternary (3 entities).
