@@ -1,4 +1,3 @@
-***
 
 # Unit 9: Software Quality & Standards
 
@@ -99,4 +98,5 @@ Software changes constantly (bugs, new features). Without SCM, these changes lea
 *   **Baseline:** A stable version (e.g., V1.0) is saved.
 *   **Check-out:** Developer A checks out a file to edit.
 *   **Locking:** SCM prevents Developer B from editing the same file simultaneously to avoid conflicts.
+
 *   **Check-in:** Developer A saves the new version (V1.1). SCM records the change history.
