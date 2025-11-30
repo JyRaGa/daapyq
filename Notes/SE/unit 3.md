@@ -1,6 +1,3 @@
-Here is the **final hybrid Unit 3 document**. It combines the **precise definitions and process steps** from the file (which are technically superior) with the **tables and examples** from your new text (which are better for learning and exams).
-
-***
 
 # Unit 3: Requirements Engineering
 
@@ -134,4 +131,5 @@ Elicitation is the process of gathering requirements. It is the most communicati
 ### 16. What happens when validation reveals an error?
 *   **Action:** The error is documented in a "List of Problems."
 *   **Correction:** The **Requirements Engineer** modifies the SRS.
+
 *   **Involvement:** The **Stakeholders** (Customer/User) must review the change to ensure the correction actually meets their needs.
