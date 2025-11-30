@@ -1,6 +1,4 @@
-Here is the **Final Hybrid Document for Unit 7**. It combines the clear, table-based explanations from your text (V&V, White/Black Box) with the **complete content** from the file (Alpha/Beta, Tools, Definitions) that your text missed.
 
-***
 
 # Unit 7: Verification, Validation & Testing
 
@@ -84,4 +82,5 @@ Here is the **Final Hybrid Document for Unit 7**. It combines the clear, table-b
 *   **Selection:** Instead of re-running *all* 10,000 tests (too slow), we select only:
     1.  Tests for the **modified module**.
     2.  Tests for modules that **depend on** the modified module.
+
 *   **Example:** If you change the "Interest Calculation" module, you must re-test "Interest" and "Monthly Statement" (which uses Interest), but you can skip "Address Change" (unrelated).
