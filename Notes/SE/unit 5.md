@@ -1,6 +1,3 @@
-Here is the **100% complete and improved** Unit 5 document. It combines your previous good text with the necessary "missing link" (Q8) and ensures everything is technically perfect.
-
-***
 
 # Unit 5: UML & Modeling
 
@@ -98,4 +95,5 @@ We use **Interaction Frames** (rectangular boxes):
 *   **Information on Node:**
     *   **Node Name:** (e.g., `Database Server`).
     *   **Stereotype:** (e.g., `<<device>>`).
+
     *   **Artifacts:** The actual files deployed inside (e.g., `student_db.sql`, `app.exe`).
