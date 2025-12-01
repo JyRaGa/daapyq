@@ -462,7 +462,14 @@ Symbols A, B, C, D, E, F are being produced by information source with probabili
 Given the characters <a, b, c, d, e, f> with the following probability of occurrence P=<45, 13, 12, 16, 9, 5>. Build a binary tree according to greedy strategy for defining an optimal Huffman code.
 
 ---
+### 3.13 Disjoint Set Data Structures
 
+**CO205-DAA-Nov-2024-Endsem | Q5(a)**
+Following diagram shows representation of disjoint sets S1={c, h, e, b} and S2={f, g, d} using linked lists. For every set S, we have head[S], and tail[S].
+Design best possible algorithms for following operations:
+Make-set(), Find-Set(), Union()
+
+---
 ### 3.2 Fractional Knapsack & Greedy Approach
 
 **CO208-ADA-2018-August-Supp | Q7(a)**
