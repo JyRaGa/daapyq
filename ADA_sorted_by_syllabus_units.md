@@ -1153,14 +1153,14 @@ Explain following algorithms in details: Euclid's GCD algorithm.
 
 
 ## Total Questions by Unit:
-- **Unit 1:** ~53+ questions
-- **Unit 2:** ~37+ questions
-- **Unit 3:** ~47+ questions
-- **Unit 4:** ~59+ questions
-- **Unit 5:** ~16+ questions
+- **Unit 1:** ~55+ questions
+- **Unit 2:** ~41+ questions
+- **Unit 3:** ~50+ questions
+- **Unit 4:** ~62+ questions
+- **Unit 5:** ~17+ questions
 - **Unit 6:** ~35+ questions
 
-*Grand Total: 201+ questions organized by syllabus unit*
+*Grand Total: 215+ questions organized by syllabus unit*
 
 ---
 
