@@ -1,11 +1,11 @@
 # Algorithm Design and Analysis – Questions Sorted by Syllabus Units
-## Compiled from 24 Exam Papers (2012–2024)
+## Compiled from 25 Exam Papers (2012–2024)
 
 **Total Questions:** 201+  
 **Organization:** 6 Units as per DTU Syllabus  
 **Date Range:** May 2012 – May 2024  
 
-> **Acknowledgement:** The papers were sourced courtesy of my senior Madhav Gupta. Many thanks to him.
+> **Acknowledgement:** Most of the papers were sourced courtesy of my senior Madhav Gupta. Many thanks to him.
 
 ---
 
@@ -21,7 +21,6 @@
 - [UNIT 4: DYNAMIC PROGRAMMING & BACKTRACKING](#unit-4-dynamic-programming--backtracking)
 - [UNIT 5: BRANCH AND BOUND](#unit-5-branch-and-bound)
 - [UNIT 6: COMPUTATIONAL COMPLEXITY](#unit-6-computational-complexity---p-np-np-hard-np-complete)
-- [**LATEST: May 2024 End Term Paper**](#co208-end-term-examination-may-2024)
 
 
 ---
@@ -1165,8 +1164,6 @@ Explain following algorithms in details: Euclid's GCD algorithm.
 
 ---
 
-*46+ questions across all papers requiring graph diagrams, matrix visualizations, or state space trees have been excluded from this compilation.*
+*50+ questions across all papers requiring graph diagrams, matrix visualizations, or state space trees have been excluded from this compilation.*
 
-
-**The papers were sourced courtesy of my senior Madhav Gupta (2K21/CO/262), many thanks to him.**
 
