@@ -1,9 +1,9 @@
 # Algorithm Design and Analysis – Questions Sorted by Syllabus Units
 ## Compiled from 25 Exam Papers (2012–2024)
 
-**Total Questions:** 201+  
+**Total Questions:** 215+  
 **Organization:** 6 Units as per DTU Syllabus  
-**Date Range:** May 2012 – May 2024  
+**Date Range:** May 2012 – Nov 2024  
 
 > **Acknowledgement:** Most of the papers were sourced courtesy of my senior Madhav Gupta. Many thanks to him.
 
