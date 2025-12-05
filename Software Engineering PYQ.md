@@ -64,6 +64,15 @@
       *   Management
       *   Customers
       *   Practitioners
+        
+- **Software Engineering Definition:**
+  - Define the term Software Engineering.
+  - What is Software Engineering? Discuss its objectives and scope.
+
+- **CASE Tools (Extended):**
+  - Draw a general architecture of a CASE environment. Explain its important characteristics.
+  - What is the difference between **upper CASE** and **lower CASE** tools?
+  - List at least 2 commercial CASE tools supporting different stages of the software life cycle.
 
 - **Process & Management:**
   - Explain the four P's of software management.
@@ -139,6 +148,11 @@
   - State the differences between Requirement Specification and Validation.
   - What do you think happens when requirement validation reveals an error? Who is involved in correcting the error?
 
+- **Problems in Requirements:**
+  - Explain the problems in the formulation of requirements for any software project.
+  - Discuss the challenges in requirements gathering and specification.
+  - Why is requirements formulation considered one of the most challenging phases?
+
 ***
 
 ## **4. Software Design**
@@ -164,6 +178,11 @@
   - What is design? Describe the difference between conceptual design and technical design.
   - What do you understand by **modularity** in software development? Why is it needed?
   - What is modularity? State the desirable properties of a modular system.
+    
+- **Design Approaches (Comparison):**
+  - List the similarities and dissimilarities between structured analysis and object-oriented requirements analysis techniques.
+  - Compare structured design vs object-oriented design approaches.
+
 
 - **Data Modeling & Rules:**
   - What is the use of Data Dictionaries? Explain with example.
@@ -172,6 +191,12 @@
   - What is the purpose of a Data Flow Diagram (DFD)? Distinguish it from a flowchart.
   - What rules should be observed while drawing a **DFD** (Data Flow Diagram)? What constraints must be observed while creating a leveled DFD?
   - What are the logical constraints while drawing an **ERD** (Entity Relationship Diagram)?
+    
+- **ER Diagrams (Extended):**
+  - What is the **degree of a relationship**? Give an example of each relationship degree (Unary, Binary, Ternary).
+
+- **Design Reuse:**
+  - Why are **design patterns** an effective form of design reuse? What are the disadvantages to this approach?
 
 ***
 
@@ -186,6 +211,13 @@
   - In a sequence diagram, how do you represent the flow of control implied by an "if" statement and a "while" statement? Give examples.
   - What is the difference between sequential substates and concurrent substates?
   - How do you represent a node in a **deployment diagram**? What kind of information can appear on a node?
+    
+ - **Purpose of Modeling:**
+   
+  - What are some of the reasons for creating models during system development?
+  - Why is modeling considered essential in software engineering?
+  - Discuss the benefits of visual modeling in requirements and design phases.
+
 
 ***
 
@@ -278,9 +310,141 @@ Full Requirements:
    • Query marks
    • Print report cards
    • Compute statistics of student performance, Draw: Context diagram and Level 1 DFD
+- **Text Book Inventory System:**
+  
+  **Requirements:**
+     The purpose of Text Book Inventory system at a campus bookstore is to supply textbooks to students for classes at a local university. The university's academic department supplies initial data about courses, instructors, textbooks and projected enrollment to the bookstore on a Text Book Master List. The bookstore generates a Form No. 11 purchase order, which is sent to publishing companies supplying textbooks. Book orders arrive at the bookstore accompanied by a packing slip which is checked and verified by the receiving department. Students fill out a Books Request form that includes course information when they pay for their books. The students are given a cash register Sale Receipt.
+  
+  **Draw:** 
+  - (i) ER diagram
+  - (ii) Context diagram
+  - (iii) Level-1 DFD
 
+- **WEB EDIT System (Web Page Maker):**
+  
+  **Requirements:**
+  WEB EDIT is a web page maker that allows any user who has a connection to the Internet and a web browser to use it to create a nice and simple web page. Users design and create a page by filling in some information. Newly created pages can be saved on a server. This allows a user to preview a designed page after creating it and before saving it on the web. In case they are dissatisfied with its design, the user can delete the web page at a later stage. The user can also upload the page at any time.
+  
+  **Draw:**
+  - (i) Use case diagram
+  - (ii) Class diagram
 
+- **Shipping Department Purchase Order System:**
+  
+  **Requirements:**
+  The shipping department receives all shipments on outstanding purchase orders. When the clerk in the shipping department receives a shipment, they find the outstanding purchase order for those items. The clerk then sends multiple copies of the shipment packing slip: One copy goes to purchasing (updates records to indicate purchase order fulfilled), another copy goes to accounting (so payment can be made), and a third copy goes to the requesting in-house customer (so they can receive the shipment). Once payment is made, the accounting department sends a notification to purchasing. Once the customer receives and accepts the goods, they send notification to purchasing. When purchasing receives these verifications, it closes the purchase order as filled and paid.
+  
+  **Draw:**
+  - (i) Use case diagram
+  - (ii) Activity diagram
 
+- **Hospital Room Scheduling System (IHS):**
+  
+  **Requirements:**
+  The International Hospital Service (IHS) is building a new scheduling system to help track occupancy of beds and rooms in a hospital. A hospital room is either occupied or vacant. However, scheduling a room is more complicated. A room can be scheduled or unscheduled independently of whether it is occupied or not. When a room is vacant, it becomes occupied when a patient is assigned to the room. If the patient is admitted as an emergency (unscheduled), then nothing else needs to happen. However, if admittance is a scheduled arrival, the room scheduling system must note that fact and update the schedule to show it as being fulfilled. Immediately after a room is vacated, it goes into a temporary state of "dirty." That simply means it should be cleaned before another patient can be moved in, so even though it is in reality vacant, it is not considered vacant until it has been cleaned.
+  
+  **Draw:** State chart diagram showing all states and transitions
+
+- **University Registration System (URS) - Detailed:**
+  
+  **Requirements:**
+  A university is organized in different teaching schools and each school conducts a variety of programmes. Students are registered in various schools manually based on admission slips. Students are assigned courses depending upon the scheme of the selected programme. Every school is responsible for its registration process. The system maintains:
+  - List of students registered in a programme
+  - List of students registered for a particular course
+  - List of courses offered in a particular semester
+  - List of faculty in a school
+  - Personal details of the students
+  - Registration card for every registered student
+  
+  **The proposed URS system should:**
+  - Maintain the personal details of the students
+  - Maintain the details of the faculty
+  - Maintain the detail of various courses as per the scheme of the programme
+  - Issue of registration card to the student in every semester
+  - Generate list of programmes offered by university
+  - Generate list of courses offered in a particular semester for a particular programme
+  
+  **Draw:**
+  - (i) Context level diagram
+  - (ii) Level-1 DFD for URS
+  - (iii) Level-2 DFD for "maintain students details" process
+
+- **Automated Book Management System (ABMS):**
+  
+  **Requirements:**
+  DTU engineers team has launched an "Automated Book Management System" (ABMS) which aims to provide any course or extra books on demand by students on rental basis. Students are provided with their account ID to login and can search for the respected book they need. Books are managed in the warehouse by a manager and are collected in the store by vendor. Every student on renting a book will be provided an invoice which will act as a token for submitting the book further. New students or users are mandatory to login with 6 month subscription. Student accounts are linked with the ERP of college (to maintain integrity). If any user doesn't return the book on time, an alert on ERP will be notified and late charges will be applied on return. Money collected will be used by the team members for college fest preparations and charity in future. The purpose is to provide large collection of respectable course books and not to challenge library management.
+  
+  **Draw:**
+  - (i) ER diagram
+  - (ii) DFD-0 level
+
+- **Open-Ended DFD Exercise:**
+  - Choose a transaction that you are likely to encounter (perhaps ordering a suit for graduation), and develop a high-level DFD. Decompose this to a level-0 diagram.
+
+- **Library System (Books, Videos, CDs):**
+  
+  **Requirements:**
+  Consider the world of libraries. A library has books, videos, and CDs that it loans to its users. All library material has an id# and a title. In addition:
+  - **Books** have one or more authors
+  - **Videos** have one producer and one or more actors
+  - **CDs** have one or more entertainers
+  
+  The library maintains one or more copies of each library item (book, video or CD). Copies of all library material can be loaned to users:
+  - **Reference-only material:** Loaned for 2 hours and can't be removed from the library
+  - **Other material:** Can be loaned for 2 weeks
+  
+  For every loan, the library records:
+  - User information
+  - Loan date and time
+  - Return date and time
+  
+  For users, the library maintains:
+  - Name
+  - Address
+  - Phone number
+  
+  **Draw:**
+  - Class diagram with attributes, multiplicities, and aggregations/compositions
+  - DFD (Level 0 and Level 1)
+
+- **Online Food Delivery System (Zomato/Swiggy-style):**
+
+  **System Description:**
+  An online food delivery system connects customers with restaurants. The system involves the following entities and processes:
+  
+  **Entities:**
+  1. **Customer** - Places orders, makes payments
+  2. **Restaurant** - Receives orders, prepares food
+  3. **Delivery Person** - Picks up and delivers orders
+  4. **Payment Gateway** - Processes payments
+  5. **Admin** - Manages system, monitors operations
+  6. **System** - Coordinates all activities
+  
+  **Key Processes:**
+  - Customer browses menu, selects items, places order
+  - System forwards order to restaurant
+  - Restaurant confirms and prepares order
+  - System assigns delivery person
+  - Delivery person picks up from restaurant
+  - Delivery person delivers to customer
+  - Customer makes payment (online/cash)
+  - System updates order status throughout
+  
+  **Requirements:**
+  - Customer can track order in real-time
+  - Multiple payment options (card, wallet, cash)
+  - Restaurant can accept/reject orders
+  - Delivery person can update location
+  - Admin can monitor all transactions
+  
+  **Draw:**
+  1. **Activity Diagram** - Complete order flow from browsing to delivery
+  2. **Sequence Diagram** - Interaction between Customer, System, Restaurant, Delivery Person
+  3. **Collaboration Diagram** - Same interactions with numbered messages
+  4. **Class Diagram** - All 6 entities with attributes, methods, relationships
+  5. **State Chart Diagram** - Order states (Placed → Confirmed → Preparing → Ready → Picked Up → Delivered → Completed)
+  
+  **[10 Marks - CS209 Nov 2024]**
 ***
 
 ## **7. Verification, Validation & Testing**
@@ -300,7 +464,84 @@ Full Requirements:
   - Differentiate between **Alpha** and **Beta** testing.
   - Define: (i) **Test case**, (ii) **Test suite**.
   - What is the importance of **regression test selection**? Discuss with the help of examples.
+  - 
+- **Testing Philosophy:**
+  - What are the objectives of testing? Explain why testing can only detect the presence of errors, not their absence.
+  - Discuss the fundamental principle: "Testing shows the presence of defects, not their absence."
+
+- **Level of Testing:**
+  - Write a short note on **Level of Testing** including:
+    * Unit Testing
+    * Integration Testing
+    * System Testing
+    * Acceptance Testing
+  - Explain each level with its objectives and who performs it.
    
+- **What is Data Flow Testing? Explain the different techniques of data flow testing.**
+
+  **Data Flow Testing** is a white-box testing technique that focuses on the **flow of data** through a program. It examines the definition and use of variables throughout the program execution.
+  
+  **Key Concepts:**
+  
+  1. **DEF (Definition):** A statement where a variable is defined or assigned a value
+     - Example: `x = 10;` or `read(y);`
+  
+  2. **USE:** A statement where a variable's value is used
+     - **C-use (Computational use):** Variable used in computation
+       - Example: `z = x + y;`
+     - **P-use (Predicate use):** Variable used in condition/decision
+       - Example: `if (x > 0)`
+  
+  3. **DU-pair (Definition-Use pair):** A pair consisting of:
+     - A definition of variable at location i
+     - A use of same variable at location j
+     - A path from i to j with no other definition
+  
+  **Data Flow Testing Techniques:**
+  
+  1. **All-defs Coverage:**
+     - For each variable definition, test at least ONE path to at least ONE use
+     - Ensures every definition reaches some use
+     - **Weakest** data flow criterion
+  
+  2. **All-uses Coverage:**
+     - For each variable definition, test paths to ALL uses (both C-uses and P-uses)
+     - Ensures every definition reaches every possible use
+     - **Moderate** coverage
+  
+  3. **All-du-paths Coverage:**
+     - Test ALL possible paths from each definition to each use
+     - Includes all loop variations and branches
+     - **Strongest** data flow criterion
+     - Most thorough but most expensive
+  
+  **Example:**
+  ```
+  1. read(x);          // DEF of x
+  2. y = x + 10;       // USE of x (C-use), DEF of y
+  3. if (y > 20)       // USE of y (P-use)
+  4.    z = y * 2;     // USE of y (C-use), DEF of z
+  5. else
+  6.    z = y / 2;     // USE of y (C-use), DEF of z
+  7. print(z);         // USE of z (C-use)
+  ```
+  
+  **DU-pairs:**
+  - (x, 1, 2) - definition at line 1, use at line 2
+  - (y, 2, 3) - definition at line 2, use at line 3
+  - (y, 2, 4) - definition at line 2, use at line 4
+  - (y, 2, 6) - definition at line 2, use at line 6
+  - (z, 4, 7) - definition at line 4, use at line 7
+  - (z, 6, 7) - definition at line 6, use at line 7
+  
+  **Advantages:**
+  - Detects unused variables
+  - Finds uninitialized variable uses
+  - Identifies unreachable code
+  - More thorough than statement/branch coverage
+  
+  **[5 Marks - CS209 Nov 2024]**
+  
 ***
 
 ## **8. Software Maintenance**
@@ -316,7 +557,66 @@ Full Requirements:
   - Write a short note on Reverse Engineering.
   - What is reverse engineering? Explain its scope and tasks.
   - Discuss various levels of reverse engineering.
+    
+- **COTS and System Integration:**
+  - What are **COTS** (Commercial Off-The-Shelf) products?
+  - Explain why **adaptors** are usually needed when systems are constructed using COTS products.
+  - Discuss the advantages and challenges of using COTS in software development.
 
+- **Legacy Systems (Extended):**
+  - What are legacy systems? What is the need of software reengineering?
+  - Explain the challenges in maintaining legacy systems and strategies to handle them.
+
+- **Professional Course Admission - Decision Table Testing:**
+
+  **Problem Statement:**
+  A student can get admission into a professional course based on the following criteria:
+  
+  **Admission Criteria:**
+  - Student must have Physics AND Chemistry as subjects
+  - Student must have Mathematics OR Computer Science
+  - Student marks must be greater than 60% to get admission in Honours course
+  - Student marks must be greater than 50% to get admission in Pass course
+  
+  **Tasks:**
+  1. Draw the complete decision table for this admission system
+  2. Design test cases based on the decision table
+  3. Identify all possible outcomes (Honours admission, Pass admission, Rejection)
+  
+  **Decision Table Structure:**
+  
+  | Condition | R1 | R2 | R3 | R4 | R5 | R6 | R7 | R8 |
+  |-----------|----|----|----|----|----|----|----|----|
+  | Has Physics? | Y | Y | Y | Y | Y | Y | N | N |
+  | Has Chemistry? | Y | Y | Y | Y | N | N | - | - |
+  | Has Math OR CS? | Y | Y | N | N | - | - | - | - |
+  | Marks > 60%? | Y | N | - | - | - | - | - | - |
+  | Marks > 50%? | - | Y | - | - | - | - | - | - |
+  | **Action** | | | | | | | | |
+  | Admit to Honours | X | | | | | | | |
+  | Admit to Pass | | X | | | | | | |
+  | Reject | | | X | X | X | X | X | X |
+  
+  **Test Cases:**
+  
+  | TC# | Physics | Chemistry | Math/CS | Marks | Expected Result |
+  |-----|---------|-----------|---------|-------|-----------------|
+  | TC1 | Yes | Yes | Math | 65% | Honours Admission |
+  | TC2 | Yes | Yes | CS | 55% | Pass Admission |
+  | TC3 | Yes | Yes | Math | 45% | Rejected |
+  | TC4 | Yes | Yes | None | 70% | Rejected |
+  | TC5 | Yes | No | Math | 65% | Rejected |
+  | TC6 | No | Yes | Math | 65% | Rejected |
+  | TC7 | No | No | None | 40% | Rejected |
+  | TC8 | Yes | Yes | Both | 62% | Honours Admission |
+  
+  **Key Points:**
+  - Physics AND Chemistry are **mandatory**
+  - Math OR CS means **at least one** must be present
+  - Marks threshold determines Honours vs Pass
+  - If basic subjects missing, marks don't matter
+  
+  **[5 Marks - CS209 Nov 2024]**
 ***
 
 ## **9. Software Quality & Standards**
@@ -339,6 +639,26 @@ Full Requirements:
 - **Configuration Management:**
   - Explain configuration management with the activities involved in it.
   - Write a short note on Configuration Management with suitable examples.
+
+- **ISO 9126 Quality Model:**
+  - What is **SQA** (Software Quality Assurance)? Discuss the **ISO 9126 quality model**.
+  - Explain the six quality characteristics of ISO 9126:
+    * **Functionality** (Suitability, Accuracy, Interoperability, Security)
+    * **Reliability** (Maturity, Fault tolerance, Recoverability)
+    * **Usability** (Understandability, Learnability, Operability)
+    * **Efficiency** (Time behavior, Resource utilization)
+    * **Maintainability** (Analyzability, Changeability, Stability, Testability)
+    * **Portability** (Adaptability, Installability, Conformance, Replaceability)
+  - Differentiate between ISO 9001 (process quality) and ISO 9126 (product quality).
+
+- **Quality Views:**
+  - How is **Gravin's view** of quality different from **Alan's view**?
+  - What do you understand by software quality? Discuss different perspectives of viewing quality.
+
+- **Design Quality:**
+  - What are the characteristics of a good design?
+  - Discuss design quality attributes and their importance in software development.
+
 
 ***
 
@@ -370,6 +690,85 @@ Full Requirements:
    - What is the **Critical Path Method (CPM)**? How is it used for project scheduling and resource management?
    - Differentiate between Gantt charts and PERT charts with examples.
    - Write a short note on: (a) Gantt chart and Pert chart, (b) Critical Path Method
+
+- **Measurement Types:**
+  - Differentiate between **direct measurement** and **indirect measurement** in software metrics.
+  - Give examples of each type of measurement.
+
+- **Software Reliability:**
+  - What is **software reliability**? How is it measured?
+  - Describe the **Jelinski-Moranda model** of software reliability.
+  - Explain the concept of failure intensity and failure intensity decay parameter.
+  - What is the **Logarithmic Poisson execution time model** of software reliability?
+
+- **Project Planning:**
+  - Explain the steps involved in project planning.
+  - Discuss the various factors that affect a project plan.
+  - How does project planning differ from project scheduling?
+
+- **Metrics Application:**
+  - Why do we need metrics in software?
+  - Discuss the areas of applications of software metrics.
+  - State the advantages and disadvantages of using LOC as a metric. (Give 2 reasons for each)
+
+
+- **CMM-ISO 9001 Correlation Table:**
+
+  **Mapping between CMM Key Process Areas (KPAs) and ISO 9000/9001 Clauses:**
+  
+  | CMM Level | CMM Key Process Area (KPA) | ISO 9001 Clause | ISO 9001 Requirement |
+  |-----------|----------------------------|-----------------|----------------------|
+  | **Level 2** | Requirements Management | 4.3 | Contract Review |
+  | | Software Project Planning | 4.9 | Process Control |
+  | | Software Project Tracking | 4.9, 4.1.3 | Process Control, Management Review |
+  | | Software Quality Assurance | 4.1, 4.16, 4.17 | Quality System, Quality Records, Internal Audits |
+  | | Software Configuration Management | 4.5, 4.8, 4.12 | Document Control, Product ID, Inspection Status |
+  | | Software Subcontract Management | 4.6 | Purchasing |
+  | **Level 3** | Organization Process Focus | 4.1.1, 4.1.2 | Management Responsibility |
+  | | Organization Process Definition | 4.2, 4.9 | Quality System, Process Control |
+  | | Training Program | 4.18 | Training |
+  | | Integrated Software Management | 4.1, 4.2 | Management Responsibility, Quality System |
+  | | Software Product Engineering | 4.4, 4.9 | Design Control, Process Control |
+  | | Intergroup Coordination | 4.1.2.3 | Management Representative |
+  | | Peer Reviews | 4.13 | Inspection and Testing |
+  | **Level 4** | Quantitative Process Management | 4.9, 4.20 | Process Control, Statistical Techniques |
+  | | Software Quality Management | 4.1, 4.14 | Quality System, Corrective Action |
+  | **Level 5** | Defect Prevention | 4.14 | Corrective and Preventive Action |
+  | | Technology Change Management | 4.2.3 | Quality Planning |
+  | | Process Change Management | 4.1.3 | Management Review |
+  
+  **Key Correlations:**
+  
+  1. **Both focus on process:**
+     - CMM: Process maturity levels
+     - ISO 9001: Process-based quality system
+  
+  2. **Documentation emphasis:**
+     - CMM: Documented procedures at Level 2+
+     - ISO 9001: Clause 4.2 (Quality System documentation)
+  
+  3. **Continuous improvement:**
+     - CMM: Level 5 (Optimizing)
+     - ISO 9001: Clause 4.1 (Management commitment to improvement)
+  
+  4. **Management responsibility:**
+     - CMM: Senior management commitment throughout
+     - ISO 9001: Clause 4.1 (Management Responsibility)
+  
+  5. **Training requirements:**
+     - CMM: Training Program (Level 3 KPA)
+     - ISO 9001: Clause 4.18 (Training)
+  
+  **Differences:**
+  - CMM: Software-specific, staged maturity
+  - ISO 9001: Generic quality, certification-based
+  - CMM: 5 levels of progression
+  - ISO 9001: Pass/fail certification
+  
+  **[3 Marks - CS209 Nov 2024]**
+
+
+    
 
 ***
 
@@ -453,7 +852,346 @@ void main()
 3. Calculate McCabe's **cyclomatic complexity** for the above program
 
 
+- **Function Point Calculation (New Variant):**
+  - Compute the function point value for a project with the following information domain characteristics:
+    * Number of user inputs = 30
+    * Number of user outputs = 25
+    * Number of user enquiries = 10
+    * Number of files = 06
+    * Number of external interfaces = 4
+    
+    Assume that all complexity adjustment factors are average.
+
+- **Software Reliability Calculations:**
+  - Assume that the initial failure intensity is 20 failures/CPU hr. The failure intensity decay parameter is 0.02/failure. We have experienced 100 failures up to this time.
+    
+    Calculate:
+    * (i) Determine the current failure intensity
+    * (ii) Find the decrement of failure intensity per failure
+    * (iii) Calculate the failures experienced and failure intensity after 20 and 100 CPU hrs. of execution
+    * (iv) Compute additional failures and additional execution time required to reach the failure intensity objective of 2 failures/CPU hr.
+    
+    Use **Logarithmic Poisson execution time model** of software reliability for the calculations.
+
+- **Halstead Metrics (New Code Variants):**
+
+**Code 1: Euclid GCD Algorithm**
+```
+euclid (int m, int n) {
+    int r;
+    if (n > m) {
+        r = m % n;
+        while(r != 0) {
+            m = n;
+            n = r;
+            r = m % n;
+        }
+    }
+    return n;
+}
+```
+Find Halstead's software science metrics and cyclomatic complexity.
+
+**Code 2: Student Marks Averaging Program**
+```
+main() {
+    int num_students, marks, subjects, total;
+    float average;
+    num_student = 1;
+    while (num_student <= 25) {
+        total = 0;
+        subject = 1;
+        while (subject <= 5) {
+            scanf("%d", &marks);
+            total = total + marks;
+            subject++;
+        }
+        average = total / 5;
+        if (average < 50)
+            printf("Fail");
+        else
+            printf("\n pass..Average marks are %f\n", average);
+        num_student++;
+    }
+    printf("End of program");
+}
+```
+Tasks:
+- (i) Draw flow graph for above code
+- (ii) Compute cyclomatic complexity
+- (iii) Identify all independent paths
+
+**Code 3: GCD Program (Alternate Variant)**
+```
+/* program to calculate GCD of 2 numbers */
+int compute_gcd (x, y)
+int x, y;
+{
+    while (x != y)
+        if (x > y) then x = x - y;
+        else y = y - x;
+    return x;
+}
+```
+Estimate the Halstead's length and volume measures and compare them with LOC measures.
+
+- **Critical Path Method (Network Diagram):**
+  - Identify the critical activities and critical path for the problem given below:
+  
+  *(Include network diagram with activities a, b, c, d, e, f, g, h, k with durations: Start→a(8)→b(8)→g(8)→e(15)→Finish; a→d(12)→h(10)→Finish; d→f(10)→k(12)→Finish; etc.)*
+  
+  Calculate:
+  - Earliest start time (EST) and Latest start time (LST) for each activity
+  - Critical path
+  - Total project duration
+
+- **Control Flow Graph (Simple Code Variant):**
+
+Draw the control flow graph of the following code and find the cyclomatic complexity:
+
+```
+1. A=10
+2. IF B>C THEN
+3.    A=B
+4. ELSE
+5.    A=C
+6. ENDIF
+7. PRINT A
+8. PRINT B
+9. PRINT C
+```
+
+Tasks:
+- Draw control flow graph
+- Calculate cyclomatic complexity
+- Identify independent paths
+
+- **Halstead Metrics - Array Sorting Function:**
+
+  Calculate all Halstead metrics for the following array sorting code, given Stroud number = 18:
+  
+  ```
+  void sort(int arr[], int n) {
+      int i, j, temp;
+      for (i = 0; i < n-1; i++) {
+          for (j = 0; j < n-i-1; j++) {
+              if (arr[j] > arr[j+1]) {
+                  temp = arr[j];
+                  arr[j] = arr[j+1];
+                  arr[j+1] = temp;
+              }
+          }
+      }
+  }
+  ```
+  
+  **Step 1: Identify Operators and Operands**
+  
+  **Unique Operators (n1):**
+  1. `void` (return type)
+  2. `()` (function call/parameter)
+  3. `[]` (array subscript)
+  4. `,` (comma separator)
+  5. `int` (type declaration)
+  6. `=` (assignment)
+  7. `for` (loop)
+  8. `<` (less than)
+  9. `-` (subtraction)
+  10. `++` (increment)
+  11. `if` (conditional)
+  12. `>` (greater than)
+  13. `+` (addition)
+  14. `;` (statement terminator)
+  15. `{}` (block delimiters)
+  
+  **n1 = 15**
+  
+  **Unique Operands (n2):**
+  1. `sort` (function name)
+  2. `arr` (array parameter)
+  3. `n` (size parameter)
+  4. `i` (loop variable)
+  5. `j` (loop variable)
+  6. `temp` (temporary variable)
+  7. `0` (constant)
+  8. `1` (constant)
+  
+  **n2 = 8**
+  
+  **Total Operator Occurrences (N1):**
+  - Count all operator appearances: **N1 = 52**
+  
+  **Total Operand Occurrences (N2):**
+  - Count all operand appearances: **N2 = 36**
+  
+  **Step 2: Calculate Halstead Metrics**
+  
+  1. **Program Vocabulary:** n = n1 + n2 = 15 + 8 = **23**
+  
+  2. **Program Length:** N = N1 + N2 = 52 + 36 = **88**
+  
+  3. **Calculated Length:** N̂ = n1 × log₂(n1) + n2 × log₂(n2)
+     - N̂ = 15 × log₂(15) + 8 × log₂(8)
+     - N̂ = 15 × 3.907 + 8 × 3.0
+     - N̂ = 58.605 + 24.0 = **82.605**
+  
+  4. **Volume:** V = N × log₂(n)
+     - V = 88 × log₂(23)
+     - V = 88 × 4.524 = **398.11 bits**
+  
+  5. **Difficulty:** D = (n1/2) × (N2/n2)
+     - D = (15/2) × (36/8)
+     - D = 7.5 × 4.5 = **33.75**
+  
+  6. **Effort:** E = D × V
+     - E = 33.75 × 398.11 = **13,436.21 elementary mental discriminations**
+  
+  7. **Time to Program:** T = E / S (where S = Stroud number = 18)
+     - T = 13,436.21 / 18 = **746.46 seconds**
+     - T = **12.44 minutes**
+  
+  8. **Delivered Bugs:** B = V / 3000
+     - B = 398.11 / 3000 = **0.133 bugs**
+  
+  **Summary:**
+  - Volume: 398.11 bits
+  - Difficulty: 33.75
+  - Effort: 13,436.21
+  - Time: 12.44 minutes
+  - Expected Bugs: 0.133
+  
+  **[5 Marks - CS209 Nov 2024]**
+
+---
+
+- **Quadratic Equation [0, 100] - Worst Case Testing:**
+
+  **Problem:** For a program that takes three integers (a, b, c) in the range [0, 100] and solves the quadratic equation ax² + bx + c = 0, design test cases using **Worst Case Testing** technique.
+  
+  **Worst Case Testing:**
+  - Tests **all combinations** of extreme values
+  - More exhaustive than Boundary Value Analysis
+  - For n variables with 5 values each: 5ⁿ test cases
+  
+  **Test Values for each variable:**
+  - **Minimum:** 0
+  - **Just above minimum:** 1
+  - **Nominal:** 50
+  - **Just below maximum:** 99
+  - **Maximum:** 100
+  
+  **Worst Case Test Cases (5³ = 125 test cases total):**
+  
+  Sample of key test cases:
+  
+  | TC# | a | b | c | Expected Result |
+  |-----|---|---|---|-----------------|
+  | TC1 | 0 | 0 | 0 | Not a quadratic equation |
+  | TC2 | 0 | 0 | 1 | No solution |
+  | TC3 | 0 | 0 | 50 | No solution |
+  | TC4 | 0 | 0 | 99 | No solution |
+  | TC5 | 0 | 0 | 100 | No solution |
+  | TC6 | 0 | 1 | 0 | Linear: x = 0 |
+  | TC7 | 0 | 1 | 1 | Linear: x = -1 |
+  | ... | ... | ... | ... | ... |
+  | TC21 | 1 | 0 | 0 | x = 0 (repeated) |
+  | TC22 | 1 | 0 | 1 | Complex roots |
+  | TC23 | 1 | 0 | 50 | Complex roots |
+  | ... | ... | ... | ... | ... |
+  | TC61 | 50 | 50 | 50 | Real/complex roots |
+  | ... | ... | ... | ... | ... |
+  | TC121 | 100 | 99 | 99 | Real roots |
+  | TC122 | 100 | 99 | 100 | Real roots |
+  | TC123 | 100 | 100 | 0 | Real roots |
+  | TC124 | 100 | 100 | 99 | Real roots |
+  | TC125 | 100 | 100 | 100 | Real roots |
+  
+  **Complete Combination Matrix:**
+  - **First variable (a):** 0, 1, 50, 99, 100 (5 values)
+  - **Second variable (b):** 0, 1, 50, 99, 100 (5 values)
+  - **Third variable (c):** 0, 1, 50, 99, 100 (5 values)
+  - **Total:** 5 × 5 × 5 = **125 test cases**
+  
+  **Categories to Cover:**
+  1. a = 0 (not quadratic) → 25 test cases
+  2. a ≠ 0, discriminant > 0 (real distinct roots) → test cases
+  3. a ≠ 0, discriminant = 0 (real equal roots) → test cases
+  4. a ≠ 0, discriminant < 0 (complex roots) → test cases
+  
+  **Note:** Worst case testing is exhaustive and may be impractical for large domains, but ensures maximum coverage.
+  
+  **[3 Marks - CS209 Nov 2024]**
+
+---
+
+- **Software Maintenance Calculation (Belady-Lehman Model):**
+
+  **Problem:** An application developed for an insurance company has been in production for several years. During this period, many changes have been made, and 800 person-months (PM) of effort have been invested in maintenance. Using the Belady-Lehman maintenance model with K = 0.4 and initial complexity = 8, calculate:
+  
+  1. Current complexity of the system
+  2. Total change in complexity
+  3. Average complexity increase per maintenance cycle
+  
+  **Belady-Lehman Maintenance Model:**
+  
+  The model states that software complexity increases over time due to maintenance:
+  
+  **Formula:**
+  \[ C(t) = C_0 + K \times E \]
+  
+  Where:
+  - \( C(t) \) = Complexity after maintenance
+  - \( C_0 \) = Initial complexity
+  - \( K \) = Complexity growth constant
+  - \( E \) = Maintenance effort (in person-months)
+  
+  **Given:**
+  - Initial complexity \( C_0 = 8 \)
+  - Maintenance effort \( E = 800 \) PM
+  - Complexity constant \( K = 0.4 \)
+  
+  **Solution:**
+  
+  **1. Current Complexity:**
+  \[ C(t) = C_0 + K \times E \]
+  \[ C(t) = 8 + (0.4 \times 800) \]
+  \[ C(t) = 8 + 320 \]
+  \[ C(t) = 328 \]
+  
+  **Answer:** Current complexity = **328**
+  
+  **2. Total Change in Complexity:**
+  \[ \Delta C = C(t) - C_0 \]
+  \[ \Delta C = 328 - 8 \]
+  \[ \Delta C = 320 \]
+  
+  **Answer:** Total complexity increase = **320**
+  
+  **3. Average Complexity Increase per PM:**
+  \[ \text{Average increase} = \frac{\Delta C}{E} \]
+  \[ \text{Average increase} = \frac{320}{800} \]
+  \[ \text{Average increase} = 0.4 \]
+  
+  **Answer:** Average complexity increase = **0.4 per person-month**
+  
+  **Interpretation:**
+  - System complexity has grown from 8 to 328 (41× increase!)
+  - For every person-month spent on maintenance, complexity increased by 0.4 units
+  - High K value (0.4) indicates rapid complexity growth
+  - This suggests need for re-engineering or refactoring
+  
+  **Belady-Lehman Laws of Evolution:**
+  1. **Continuing Change:** System must adapt or become less useful
+  2. **Increasing Complexity:** Complexity increases unless work is done to reduce it
+  3. **Self-Regulation:** Evolution process is self-regulating
+  4. **Conservation of Organizational Stability:** Average activity rate remains constant
+  5. **Conservation of Familiarity:** Incremental growth remains constant
+  
+  **[5 Marks - CS209 Nov 2024]**
+
 ***
+
+---
 
 ## **SECTION A: TABLE-BASED QUESTIONS FROM FIRST 12 PDFs**
 
@@ -818,6 +1556,120 @@ return valid;
   - *(Verify if taught in class)* Explain the **Singleton** and **Factory** design patterns with examples.
   - *(Verify if taught in class)* Compare **Monolithic** vs. **Microservices** architecture.
 
+- **Future Challenges:**
+  - Identify three major challenges that software engineering is likely to face in the next 10 years.
+  - Explain how the universal use of the Web has changed software systems.
+  - Discuss emerging trends like AI/ML integration, cloud-native development, etc.
+
+- **Boehm's Maintenance Model:**
+
+  **Boehm's Maintenance Model** categorizes software maintenance activities and provides a framework for understanding maintenance effort distribution.
+  
+  **Maintenance Categories (Boehm's Classification):**
+  
+  1. **Adaptive Maintenance (18-25%)**
+     - Changes to adapt software to new environments
+     - Examples:
+       - Migrating to new OS
+       - Database version upgrades
+       - Hardware platform changes
+       - Compliance with new regulations
+  
+  2. **Perfective Maintenance (50-60%)**
+     - Enhancements to improve performance or maintainability
+     - Examples:
+       - Adding new features per user requests
+       - Improving efficiency/performance
+       - Enhancing user interface
+       - Code restructuring for better maintainability
+     - **Largest category** of maintenance effort
+  
+  3. **Corrective Maintenance (17-21%)**
+     - Fixing defects discovered after release
+     - Examples:
+       - Bug fixes
+       - Logic errors
+       - Design flaws
+       - Coding mistakes
+  
+  4. **Preventive Maintenance (2-4%)**
+     - Changes to prevent future problems
+     - Examples:
+       - Code refactoring
+       - Documentation updates
+       - Optimization to prevent performance degradation
+       - Security patches before exploitation
+     - **Smallest category** but important
+  
+  **Boehm's Maintenance Effort Distribution:**
+  
+  | Maintenance Type | Percentage | Description |
+  |------------------|------------|-------------|
+  | Perfective | 50-60% | New features, enhancements |
+  | Adaptive | 18-25% | Environmental changes |
+  | Corrective | 17-21% | Defect fixing |
+  | Preventive | 2-4% | Future problem prevention |
+  
+  **Key Insights from Boehm's Model:**
+  
+  1. **Majority is enhancement:** 50-60% goes to new features
+  2. **Small portion for bugs:** Only ~20% for fixing defects
+  3. **Adaptation required:** ~20% for environment changes
+  4. **Prevention often neglected:** Only 2-4% despite importance
+  
+  **Boehm's Maintenance Cost Factors:**
+  
+  According to Boehm, maintenance cost depends on:
+  
+  1. **Program Structure Quality**
+     - Well-structured: Lower maintenance cost
+     - Poor structure: Exponentially higher cost
+  
+  2. **Programming Language**
+     - High-level languages: Easier maintenance
+     - Low-level languages: More effort required
+  
+  3. **Documentation Quality**
+     - Good documentation: 30-40% effort reduction
+     - Poor/missing documentation: Significantly higher effort
+  
+  4. **Personnel Capability**
+     - Experienced staff: Higher productivity
+     - Inexperienced staff: More errors, longer time
+  
+  5. **Application Domain Complexity**
+     - Simple domains: Lower maintenance
+     - Complex domains (aerospace, medical): Higher maintenance
+  
+  **Maintenance Cost Formula (Boehm):**
+  
+  \[ ACT = (AM) \times (1 + 0.02 \times SDT) \]
+  
+  Where:
+  - ACT = Annual Change Traffic (% of code changed annually)
+  - AM = Annual Maintenance effort
+  - SDT = Software Development Time
+  
+  **Comparison with Other Models:**
+  
+  | Aspect | Boehm | Belady-Lehman | IEEE |
+  |--------|-------|---------------|------|
+  | Categories | 4 types | Complexity focus | 3 types |
+  | Focus | Effort distribution | Evolution laws | Activity types |
+  | Percentages | Quantified | Not specified | Quantified |
+  
+  **Practical Application:**
+  
+  Use Boehm's model to:
+  - Allocate maintenance budget across categories
+  - Justify resources for preventive maintenance
+  - Predict maintenance effort distribution
+  - Plan maintenance team size and composition
+  
+  **[5 Marks - CS209 Nov 2024]**
+
+
+
 ---
 The most frequently asked topics, categorized by their weight and recurrence :-
 
@@ -870,5 +1722,6 @@ The most frequently asked topics, categorized by their weight and recurrence :-
 2.  **Diagram Practice:** Practice drawing a **DFD Level 1** and a **Use Case Diagram** for a generic system (like a Library or ATM), as this pattern repeats.
 
 3.  **Theory Memorization:** Memorize the **Spiral Model** phases and the **Types of Cohesion/Coupling** (from worst to best).
+
 
 
