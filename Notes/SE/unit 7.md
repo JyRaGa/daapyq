@@ -1,6 +1,3 @@
-Here is the **Final Hybrid Document for Unit 7**. It combines the clear, table-based explanations from your text (V&V, White/Black Box) with the **complete content** from the file (Alpha/Beta, Tools, Definitions) that your text missed.
-
-***
 
 # Unit 7: Verification, Validation & Testing
 
@@ -112,3 +109,4 @@ Here is the **Final Hybrid Document for Unit 7**. It combines the clear, table-b
 **Example:** Login System
 - Conditions: Valid username? Valid password?
 - Actions: Grant access, Deny access, Log attempt
+
