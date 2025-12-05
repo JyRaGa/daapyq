@@ -123,6 +123,7 @@
   - Who are the stakeholders of SRS?
   - List the important issues which an SRS must address.
   - What are the issues addressed by SRS writers? What are the characteristics of a good SRS?
+  - Discuss the organization of SRS as per IEEE standard.
 
 - **Elicitation Techniques:**
   - What is requirements engineering? Describe the various steps of the requirements engineering process.
@@ -196,14 +197,89 @@
 - **Retail Clothing Store:** List data flows/stores/processes; Draw DFD and ER Diagram.
 - **University Registration:** Draw Context level, Level-1 DFD, and Level-2 DFD.
 - **Transport Notifications:** Draw Context level, Level-1 DFD, and Level-2 DFD.
-- **IRCTC (Railways):** Draw Use Case, Activity, Sequence, Class, and State Chart Diagrams.
+- **IRCTC (Indian Railway Catering and Tourism Corporation):**
+  
+   **Complete Requirements:**
+  
+   i. **Train Search:** Users search trains based on source, destination, date, and class
+  
+   ii. **Ticket Booking:** Users book tickets for selected train, choose preferred class, make reservations for multiple passengers
+  
+   iii. **User Account Management:** Registered users can login, view booking history, and cancel reservations
+  
+   iv. **Admin Functions:** Administrators manage train schedules, update seat availability, generate reports on ticket bookings
+  
+   v. **Payment Gateway:** System handles online payments securely.
+  
+   **Draw:** Use Case Diagram, Activity Diagram, Sequence Diagram, Class Diagram, and State Chart Diagram
+
 - **Student Management:** Draw Context and Level-1 DFD.
 - **Use Case "Buy Soda":** Draw collaboration diagram for specific scenarios.
 - **Data Center:** Draw an ER-diagram for employee/project management.
 - **Banking System:** Draw Use Case diagram (dependencies) and DFD for deposit.
-- **Library Management:** Draw Context diagram, 1-level DFD, and Structured Chart.
+- **Library Management System (COMPLETE SPECIFICATIONS):**
+   
+   **Requirements:**
+   
+   1) **Issue of Books:**
+      
+      - Any student can get books issued
+      - Book bank books: Only for respective courses
+      - General section books: Issued to all
+      - Limitation: Max 4 books from book bank + 3 from general section per student
+      - Book bank books: Issued for entire semester
+      - General section books: Issued for 15 days only
+      - System uses current date as issue date and calculates return date automatically
+      - Bar code detector saves student and book information
+      - Due date stamped on book
+   
+   3) **Return of Books:**
+
+       - Any person can return books
+      - Bar code reader displays student information
+      - System shows: Student details, issue date, return date
+      - Fine calculation: Rs. 1 per day if returned late
+      - Information saved and database updated
+   
+   5) **Query Processing:**
+    
+      - Check availability of a particular book
+      - Check availability of books by a particular author
+      - Number of copies available of desired book
+      - Reserve book for 24 hours if currently unavailable
+   
+   **Draw:** Context diagram, 1-level DFD, and Structured Chart
+
 - **Boehm Quality Model:** Explain with a block diagram.
 - Design a system for a metropolitan transport authority that provides **real-time, targeted notifications** to users. Unlike generic broadcasts, this system    must alert users **only** when disruptions occur on their specific route of interest and **only** at the relevant time (e.g., not when they are out of town): Draw Use Case Diagram & Draw a Level-1 DFD."
+- **Point of Sales (POS) System:** 
+Full Requirements:
+   - POS manages sales in retail stores (Restaurants, Gas Stations, Convenience Stores)
+   - Components: Printer, barcode scanner, computer, Debit/Credit Card Reader, keyboard, touch screen, weighing machine
+   - Process: Cashier scans items → Retrieves price from backend catalog → Interacts with inventory → Shows price to customer including sales tax
+   - Payment types: Cash, credit/debit card, coupons, Points/Promotion Card, cheque
+   - User login required (Cashiers, Managers, Administrators)
+   - Admin-only access for management functions
+   - Must be fault tolerant and work offline when remote services unavailable
+   - Self-checkout functionality is NOT included
+   Draw: (i) Use Case Diagram, (ii) 1-level DFD
+- **Order Processing System:**
+   - Receives orders through salesman
+   - Sends goods by transport
+   - Maintains track order including:
+     * Order receiving dates
+     * Delivery dates
+     * Invoice details
+   - Use assumptions to add more functionality, Draw: Zero level DFD and One level DFD
+- **Student Academic Management System:**
+   Specific Features:
+   • Register students to subjects
+   • Award marks for subjects
+   • Query marks
+   • Print report cards
+   • Compute statistics of student performance, Draw: Context diagram and Level 1 DFD
+
+
 
 ***
 
@@ -224,7 +300,7 @@
   - Differentiate between **Alpha** and **Beta** testing.
   - Define: (i) **Test case**, (ii) **Test suite**.
   - What is the importance of **regression test selection**? Discuss with the help of examples.
-
+   
 ***
 
 ## **8. Software Maintenance**
@@ -288,6 +364,12 @@
 - **Risk Management:**
   - What do you understand by **risk**? What are risk management activities? How do we assess and control the risk?
   - Is it possible to prioritize the risk?
+    
+- **Project Scheduling Tools:**
+   - Explain **Gantt Chart** and **PERT Chart**. Discuss their use in project scheduling.
+   - What is the **Critical Path Method (CPM)**? How is it used for project scheduling and resource management?
+   - Differentiate between Gantt charts and PERT charts with examples.
+   - Write a short note on: (a) Gantt chart and Pert chart, (b) Critical Path Method
 
 ***
 
@@ -321,10 +403,55 @@
   - **Student Grades:** Grading rules provided. Design **equivalence class** test cases.
   - **Largest Number:** Largest of three integers (`1 \leq n \leq 200`). Design **equivalence class** test cases.
   - Consider a program that accepts three positive integers (x, y, z) representing the sides of a triangle, where inputs are in the range. The output determines if the triangle is **Scalene, Isosceles, Equilateral, or Not a Triangle**. Design **Boundary Value Analysis (BVA)** test cases for this program.
+**🆕 1. Quadratic Equation (Roots) - Range  Variant:**
+- Consider a program for the determination of the nature of roots of a quadratic equation. Its input is a triple of positive integers (say `a`, `b`, `c`) and values may be from interval `[0, 50]`. The program output may have one of the following words:
+  - Not a quadratic equation
+  - Real roots
+  - Imaginary roots
+  - Equal roots
+  
+  Design **equivalence class** test cases.
 
-- **Scenario Writing:**
-  - **Railway Reservation:** Identify actors/use cases. Write description for "reservation of train".
-  - **Library Management:** Identify functional requirements.
+
+**🆕 2. Next Date Program (Robust Testing):**
+- Consider a program for determining the **next date** in a calendar. Its input is a triple of day, month, and year with the following range:
+  - `1 ≤ month ≤ 12`
+  - `1 ≤ day ≤ 31`
+  - `1900 ≤ year ≤ 2025`
+  
+  The possible output would be **next date** or **invalid input date**. Design **robust** and **worst** test cases for this program.
+
+
+**🆕 3. Largest Number - Extended (With Code, Decision Table & Cyclomatic Complexity):**
+- Consider the following program for the selection of the largest of three numbers:
+
+```c
+void main()
+{
+    float a, b, c;
+    printf("Enter three values\n");
+    scanf("%f%f%f", &a, &b, &c);
+    printf("\n Largest value is");
+    if(a > b) {
+        if(a > c)
+            printf("%f\n", a);
+        else
+            printf("%f\n", c);
+    }
+    else {
+        if(c > b)
+            printf("%f\n", c);
+        else
+            printf("%f\n", b);
+    }
+}
+```
+
+**Tasks:**
+1. Design test cases using **Equivalence class testing** technique
+2. Design test cases using **Decision table testing** technique
+3. Calculate McCabe's **cyclomatic complexity** for the above program
+
 
 ***
 
@@ -743,4 +870,5 @@ The most frequently asked topics, categorized by their weight and recurrence :-
 2.  **Diagram Practice:** Practice drawing a **DFD Level 1** and a **Use Case Diagram** for a generic system (like a Library or ATM), as this pattern repeats.
 
 3.  **Theory Memorization:** Memorize the **Spiral Model** phases and the **Types of Cohesion/Coupling** (from worst to best).
+
 
