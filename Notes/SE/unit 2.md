@@ -1,10 +1,4 @@
-Yes, I can keep the original RAD and slot it into the new hybrid so it’s strictly **better than both**.
 
-First, quick check: what’s your learning level (BTech SE course?), so I can keep answers exam‑focused at the right depth?
-
-Here is the **updated Unit 2** with **RAD taken from your original file**, keeping the rest as in the previous hybrid.
-
-***
 
 # Unit 2: Software Process Models (Final Hybrid)
 
@@ -300,5 +294,6 @@ Typical RAD phases (from your original file/notes):
 ***
 
 We’ve now updated the hybrid so RAD is exactly at the detail level you wanted from the original file, and the rest keeps the improved structure.
+
 
 To check your understanding: if an 8‑mark question asks “Explain the RAD model and list situations where it is suitable,” which **3–4 headings** would you write in your exam answer?
