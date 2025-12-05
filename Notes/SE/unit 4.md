@@ -6,6 +6,7 @@
 ### 1. What do you understand by coupling and cohesion? Explain their types.
 **Coupling:** The degree of interdependence between software modules. High coupling means changes in one module cause ripple effects in others.
 *   **Goal:** **Minimize** coupling (Low Coupling).
+
 **Cohesion:** The degree to which elements *inside* a module belong together. High cohesion means a module performs one focused task.
 *   **Goal:** **Maximize** cohesion (High Cohesion).
 
@@ -101,3 +102,4 @@ A **Data Dictionary** is a repository that defines all data elements used in the
 *   **Participation:** Is the relationship mandatory or optional? (e.g., A specific employee *must* have a department vs. a department *may* have employees).
 
 *   **Degree:** Unary (recursive), Binary (2 entities), Ternary (3 entities).
+
