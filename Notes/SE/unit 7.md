@@ -1,4 +1,6 @@
+Here is the **Final Hybrid Document for Unit 7**. It combines the clear, table-based explanations from your text (V&V, White/Black Box) with the **complete content** from the file (Alpha/Beta, Tools, Definitions) that your text missed.
 
+***
 
 # Unit 7: Verification, Validation & Testing
 
@@ -82,5 +84,31 @@
 *   **Selection:** Instead of re-running *all* 10,000 tests (too slow), we select only:
     1.  Tests for the **modified module**.
     2.  Tests for modules that **depend on** the modified module.
-
 *   **Example:** If you change the "Interest Calculation" module, you must re-test "Interest" and "Monthly Statement" (which uses Interest), but you can skip "Address Change" (unrelated).
+
+## Data Flow Testing (NEW 2024)
+
+**Concepts:**
+- **DEF:** Variable is defined/assigned (x = 10)
+- **USE:** Variable is used
+  - **C-use:** In computation (z = x + y)
+  - **P-use:** In condition (if x > 0)
+- **DU-pair:** Definition at line i, Use at line j
+
+**Coverage Criteria:**
+1. **All-defs:** Every definition reaches at least ONE use
+2. **All-uses:** Every definition reaches ALL uses
+3. **All-du-paths:** Test ALL paths from DEF to USE
+
+## Decision Table Testing (NEW 2024)
+
+**Steps:**
+1. List all conditions (rows)
+2. List all actions (bottom rows)
+3. Create rules (columns) for each combination
+4. Mark actions with X for each rule
+5. Generate test cases from rules
+
+**Example:** Login System
+- Conditions: Valid username? Valid password?
+- Actions: Grant access, Deny access, Log attempt

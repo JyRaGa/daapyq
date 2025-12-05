@@ -63,6 +63,24 @@ Halstead metrics measure **internal complexity** based on counting "Tokens" in t
 *   **Language Independent:** Works for Java, C++, or SQL equally.
 *   **Early Estimation:** Can be calculated from the SRS document before a single line of code is written.
 
+## Function Point Weight Table
+
+| Component | Simple | Average | Complex |
+|-----------|--------|---------|---------|
+| **External Inputs (EI)** | 3 | 4 | 6 |
+| **External Outputs (EO)** | 4 | 5 | 7 |
+| **External Inquiries (EQ)** | 3 | 4 | 6 |
+| **Internal Logical Files (ILF)** | 7 | 10 | 15 |
+| **External Interface Files (EIF)** | 5 | 7 | 10 |
+
+**Example Calculation:**
+- Inputs: 24 (Simple) → 24 × 3 = 72
+- Outputs: 65 (Average) → 65 × 5 = 325
+- Files: 12 (Complex) → 12 × 15 = 180
+- UFP = 72 + 325 + 180 = 577
+- If VAF = 1.05, then FP = 577 × 1.05 = 606
+
+
 ### 2.2 Practical Application of FP Method.
 It is used primarily for **Project Planning**:
 1.  **Estimating Size:** Before coding starts.
