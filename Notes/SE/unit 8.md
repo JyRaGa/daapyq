@@ -1,5 +1,4 @@
 
-
 # Unit 8: Software Maintenance
 
 ## 1. Concepts
@@ -60,5 +59,5 @@ Reverse engineering can extract information at three different levels of abstrac
 | :--- | :--- | :--- |
 | **Level 1** | **Implementation Abstraction** | (Lowest Level) Extracting details about the **source code**, syntax, and local data structures. Recovering *how* it was coded. |
 | **Level 2** | **Design Abstraction** | (Middle Level) Recovering the **structure** of the system: modules, interfaces, and data flow (DFDs, Structure Charts). Recovering *how* it was designed. |
-
 | **Level 3** | **Specification/Analysis Abstraction**| (Highest Level) Recovering the **business rules** and domain requirements. Recovering *what* the system actually does conceptually. |
+
