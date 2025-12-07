@@ -4,14 +4,14 @@
 | **Section** | **Unit** | **Topic Areas** |
 | :--- | :--- | :--- |
 | **PART 1** | **Unit 1** | [OOP Paradigm, Classes, Static/Friend Members, Constructors](#unit-1-object-oriented-paradigm--c-at-a-glance) |
-| **( asked in** | **Unit 2** | [Dynamic Objects (new/delete), Operator Overloading, Virtual Functions, Templates](#unit-2-dynamic-objects-operator-overloading--templates) |
-| **End-Sem** | **Unit 3** | [Java Basics (JVM/Bytecode), Interfaces, Packages, Vectors](#unit-3-java-basics--oop-concepts) |
-| **⭕𝐑**| **Unit 4** | [Exception Handling (throw/throws), Multithreading (Sync/Lifecycle)](#unit-4-exception-handling--multithreading) |
-|**Supp**| **Unit 5** | [File I/O, Serialization, Networking (Sockets)](#unit-5-input-output-file-operations--networking) |
-|**papers)**| **Unit 6** | [Applets, Swing GUI, Event Handling](#unit-6-applets-and-java-swing) |
+| ( from | **Unit 2** | [Dynamic Objects (new/delete), Operator Overloading, Virtual Functions, Templates](#unit-2-dynamic-objects-operator-overloading--templates) |
+| End-Sem | **Unit 3** | [Java Basics (JVM/Bytecode), Interfaces, Packages, Vectors](#unit-3-java-basics--oop-concepts) |
+| &| **Unit 4** | [Exception Handling (throw/throws), Multithreading (Sync/Lifecycle)](#unit-4-exception-handling--multithreading) |
+|Supp )| **Unit 5** | [File I/O, Serialization, Networking (Sockets)](#unit-5-input-output-file-operations--networking) |
+|| **Unit 6** | [Applets, Swing GUI, Event Handling](#unit-6-applets-and-java-swing) |
 | | | |
 | **PART 2** | **Unit 1** | [C++ Concepts (this, namespace), Coding (Swap, Friend Functions)](#part-2-mid-semester-questions-secondary) |
-|**(Mid-Sem)**| **Unit 2** | [Dynamic Init, Diamond Problem, Template Overloading](#unit-2-dynamic-objects-operator-overloading--templates-1) |
+|(Mid-Sem)| **Unit 2** | [Dynamic Init, Diamond Problem, Template Overloading](#unit-2-dynamic-objects-operator-overloading--templates-1) |
 
 ***
 
@@ -45,7 +45,7 @@
 *    What are the key features of a Constructor? What are different types of constructors? Give an example.
 *    **[NEW]** Differentiate between constant pointer and pointer to constant. Give examples: `const int* ptr` vs `int* const ptr` vs `const int* const ptr`.
 *    **[NEW]** Write a program for class MATRIX to perform determinant and transpose operations using appropriate member functions.
-*    **[NEW]** Create an election voting program using arrays to store candidate names and vote counts. Implement add vote, display results, and find winner.
+*    **[NEW]** An election is contested by five candidates, numbered 1-5 and the voting is done on the ballot paper. Write a program to read the ballots and count the votes cast for each candidate using an array variable count. In case, a number read is outside the range 1 to 5, the ballot should be considered as a "spoilt ballot" and the program should also count the number of spoilt ballots.
 *    **[NEW]** Design a shopping list program with operations: add item, delete item, display list, and calculate total cost.
 *    **[NEW]** Explain the stack mechanism for function calls. How are parameters, local variables, and return addresses stored in stack frames (activation records)?
 *    **[NEW]** Write a C++ program to track the number of objects created, destroyed, and currently active using static data members and appropriate constructors/destructors.
@@ -131,7 +131,7 @@
 *    Evaluate the advantages and disadvantages of templates in C++ by designing a function template to swap variables.
 *    What are templates in C++ and define its types.
 *    What is the concept of inheritance of templates? Write a code for inheritance of a template base class and template derived class.
-*    Write a function template for finding the minimum value contained in an array. Distinguish between overloaded functions and function templates.
+*    Write a function template for finding the minimum value contained in an array, test it using arrays of ints and doubles. Distinguish between overloaded functions and function templates.
 *    Distinguish between the term class template and template class.
 *    Explain templates and its types with detailed example.
 *    What are Templates? Write a program to create a Class Template and a Friend Template.
@@ -281,7 +281,7 @@
 ### **Coding & Implementation**
 *   **[2025 Mid]** Write code so `S1++` and `++S1` can coexist (Operator Overloading pre/post).
 *   **[2024 Mid]** Write a C++ program using reference variables to swap values.
-*   **[2024 Mid]** Define a class `Bank Account` (Initialize, Deposit, Withdraw).
+*   **[2024 Mid]** Define a class `Bank Account`. The class should include: Name, Acc No, Type of Acc, Balance. Functions: Initial Values, Deposit, Withdraw (after checking balance), Display name & balance.
 *   **[2023 Mid]** Friend function to print sum of digits/reverse (Menu driven).
 *   **[2018 Mid]** Parameterized constructor for class `distance` (feet, inches) with default values.
 *   **[2010 Mid]** Class `time` (hr, min, sec). Add two time objects.
