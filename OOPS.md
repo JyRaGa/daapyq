@@ -46,7 +46,7 @@
 *    **[NEW]** Differentiate between constant pointer and pointer to constant. Give examples: `const int* ptr` vs `int* const ptr` vs `const int* const ptr`.
 *    **[NEW]** Write a program for class MATRIX to perform determinant and transpose operations using appropriate member functions.
 *    **[NEW]** An election is contested by five candidates, numbered 1-5 and the voting is done on the ballot paper. Write a program to read the ballots and count the votes cast for each candidate using an array variable count. In case, a number read is outside the range 1 to 5, the ballot should be considered as a "spoilt ballot" and the program should also count the number of spoilt ballots.
-*    **[NEW]** Design a shopping list program with operations: add item, delete item, display list, and calculate total cost.
+*    **[NEW]** Design a shopping list program using a class `ITEMS` with data members `order_code` and `price`. Implement operations: add item, delete item **by code**, display list, and calculate total cost.
 *    **[NEW]** Explain the stack mechanism for function calls. How are parameters, local variables, and return addresses stored in stack frames (activation records)?
 *    **[NEW]** Write a C++ program to track the number of objects created, destroyed, and currently active using static data members and appropriate constructors/destructors.
 *    **[NEW]** When and why would you use a private constructor? Explain with examples (Singleton pattern, Factory pattern).
@@ -99,7 +99,7 @@
 *    Differentiate between Overloading and Overriding.
 *    Differentiate between inheritance and containership.
 *    Write a program to show the use of virtual base class.
-*    Explain key features of Friend Function. Write a program to add two complex numbers using friend function to overload `+` operator.
+*    Explain key features of Friend Function. Write a program to add two complex numbers using friend function to overload `+` operator. Show output in `a + ib` format.
 *    Differentiate between function overriding and function overloading with example.
 *    Explain virtual base class (Short Note).
 *    **[NEW]** Explain object-to-object type conversion using TWO methods: (1) Conversion constructor, (2) Type conversion operator. Show complete example converting Polar to Rectangular coordinates.
@@ -131,7 +131,8 @@
 *    Evaluate the advantages and disadvantages of templates in C++ by designing a function template to swap variables.
 *    What are templates in C++ and define its types.
 *    What is the concept of inheritance of templates? Write a code for inheritance of a template base class and template derived class.
-*    Write a function template for finding the minimum value contained in an array, test it using arrays of ints and doubles. Distinguish between overloaded functions and function templates.
+*    Write a function template for finding the minimum value contained in an array, test it using arrays of ints and doubles. Explain how this differs from a class template
+*    Distinguish between overloaded functions and function templates.
 *    Distinguish between the term class template and template class.
 *    Explain templates and its types with detailed example.
 *    What are Templates? Write a program to create a Class Template and a Friend Template.
