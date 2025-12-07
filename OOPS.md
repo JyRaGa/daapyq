@@ -1,5 +1,5 @@
 
-## **Previously Asked Questions for OOPS (SE,IT and COE/CSE) - ENHANCED VERSION 2**
+## **Previously Asked Questions of OOP (SE,IT and COE/CSE)**
 
 | **Section** | **Unit** | **Topic Areas** |
 | :--- | :--- | :--- |
