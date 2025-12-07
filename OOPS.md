@@ -4,14 +4,14 @@
 | **Section** | **Unit** | **Topic Areas** |
 | :--- | :--- | :--- |
 | **PART 1** | **Unit 1** | [OOP Paradigm, Classes, Static/Friend Members, Constructors](#unit-1-object-oriented-paradigm--c-at-a-glance) |
-| *(from End-Sem Papers)* | **Unit 2** | [Dynamic Objects (new/delete), Operator Overloading, Virtual Functions, Templates](#unit-2-dynamic-objects-operator-overloading--templates) |
-| | **Unit 3** | [Java Basics (JVM/Bytecode), Interfaces, Packages, Vectors](#unit-3-java-basics--oop-concepts) |
-| | **Unit 4** | [Exception Handling (throw/throws), Multithreading (Sync/Lifecycle)](#unit-4-exception-handling--multithreading) |
-| | **Unit 5** | [File I/O, Serialization, Networking (Sockets)](#unit-5-input-output-file-operations--networking) |
-| | **Unit 6** | [Applets, Swing GUI, Event Handling](#unit-6-applets-and-java-swing) |
+| **( asked in** | **Unit 2** | [Dynamic Objects (new/delete), Operator Overloading, Virtual Functions, Templates](#unit-2-dynamic-objects-operator-overloading--templates) |
+| **End-Sem** | **Unit 3** | [Java Basics (JVM/Bytecode), Interfaces, Packages, Vectors](#unit-3-java-basics--oop-concepts) |
+| **⭕𝐑**| **Unit 4** | [Exception Handling (throw/throws), Multithreading (Sync/Lifecycle)](#unit-4-exception-handling--multithreading) |
+|**Supp**| **Unit 5** | [File I/O, Serialization, Networking (Sockets)](#unit-5-input-output-file-operations--networking) |
+|**papers)**| **Unit 6** | [Applets, Swing GUI, Event Handling](#unit-6-applets-and-java-swing) |
 | | | |
-| **PART 2 (Mid-Sem)** | **Unit 1** | [C++ Concepts (this, namespace), Coding (Swap, Friend Functions)](#part-2-mid-semester-questions-secondary) |
-|| **Unit 2** | [Dynamic Init, Diamond Problem, Template Overloading](#unit-2-dynamic-objects-operator-overloading--templates-1) |
+| **PART 2** | **Unit 1** | [C++ Concepts (this, namespace), Coding (Swap, Friend Functions)](#part-2-mid-semester-questions-secondary) |
+|**(Mid-Sem)**| **Unit 2** | [Dynamic Init, Diamond Problem, Template Overloading](#unit-2-dynamic-objects-operator-overloading--templates-1) |
 
 ***
 
