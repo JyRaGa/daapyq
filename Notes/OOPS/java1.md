@@ -1,6 +1,6 @@
 
-# **THE ULTIMATE LEARNING GUIDE: JAVA (PART 1)**
-*(Covers Units 3 & 4 of your Question Bank)*
+# ** LEARNING GUIDE: JAVA (PART 1)**
+*(Covers Units 3 & 4 of PYQ Question Bank)*
 
 ## **UNIT 3: Java Basics & OOP Concepts**
 
@@ -560,3 +560,4 @@ This demonstrates:
 - Use of priorities (`MAX_PRIORITY`, `MIN_PRIORITY`).
 
 ***
+
