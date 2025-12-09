@@ -1,8 +1,8 @@
 
 ***
 
-# **THE ULTIMATE LEARNING GUIDE: JAVA (PART 2)**
-*(Covers Units 5 & 6 of your Question Bank)*
+# **LEARNING GUIDE: JAVA (PART 2)**
+*(Covers Units 5 & 6 of the Question Bank)*
 
 ## **UNIT 5: Input-Output, Files & Networking**
 
@@ -455,5 +455,6 @@ public class FullCalc extends JFrame implements ActionListener {
     }
 }
 ```
+
 
 ***
