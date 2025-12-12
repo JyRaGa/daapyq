@@ -1,16 +1,5 @@
-Since these files look like **exam preparation notes** (especially with the "Mid-Sem" sections), would you like to use them for some quick revision?
 
-I can help by:
-
-1.  **Quizzing you** on the tricky theory parts (like `virtual` destructors, the **Diamond Problem**, or `new` vs `malloc`).
-2.  Writing out one of the **"Balagurusamy 8"** coding problems for you to solve (and then I can debug it).
-3.  Summarizing the **differences between C and C++** mentioned in Section 14.
-
-## Let me know if you want to jump into any of those
-
-# yeah bro just send the 1st unit of the cpp.md file line by line and explain after every line it in easy words please
-
-Here is **Unit 1** from your file (broken down line-by-line with simple explanations).
+# Commentary on cpp,java*.md files
 
 ### **SECTION 1: The Object-Oriented Paradigm (Theory)**
 
