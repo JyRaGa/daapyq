@@ -1,4 +1,4 @@
-## Sample Template used for extraction
+## LLM Prompt Template used for extraction:
 ```
 I have attached screenshots of the NPTEL assignment questions for this week. Please generate a downloadable Markdown (.md) file for my exam revision following these strict guidelines:
 
