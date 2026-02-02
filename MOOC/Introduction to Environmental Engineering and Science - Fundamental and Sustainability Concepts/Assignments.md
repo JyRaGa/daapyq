@@ -1,4 +1,4 @@
-## LLM Prompt Template used for extraction:
+## LLM Template used for extraction:
 ```
 I have attached screenshots of the NPTEL assignment questions for this week. Please generate a downloadable Markdown (.md) file for my exam revision following these strict guidelines:
 
@@ -89,3 +89,62 @@ Please extract all questions from the images and format them exactly like this.
 **Question:** Urban areas occupy approximately 1% of the Earth’s land surface but contribute to nearly:
 * **Correct Answer:** **(c) 60–70% of anthropogenic GHG emissions**
 > **Note:** Cities are dense hubs of energy consumption, transportation, and waste generation, resulting in a disproportionately high carbon footprint.
+
+---
+
+# NPTEL Introduction to Environmental Engineering and Science
+## Week 2 Assignment: Mass Concentration Units and Quantitative Measurements
+**Course:** NOC26_GE27 (Jan-Apr 2026)
+**Exam Date:** April 17, 2026
+
+### 1. Mass Concentration Units
+**Question:** The unit μg/m³ is most appropriately used for reporting pollutant concentrations in:
+*   **Correct Answer:** **(d) Air**
+    > **Note:** The unit μg/m³ (micrograms per cubic meter) is the standard unit for measuring air pollutant concentrations because air pollutants are typically present in very low concentrations.
+
+### 2. Gas Concentration Conversion Law
+**Question:** When converting gaseous concentrations between ppmv and μg/m³, which law is fundamentally required?
+*   **Correct Answer:** **(c) Ideal gas law**
+    > **Note:** The ideal gas law (PV = nRT) relates the concentration, pressure, and temperature of gases, which is essential for converting between volume-based (ppmv) and mass-based (μg/m³) concentration units.
+
+### 3. Partial Pressure in Gas Mixtures
+**Question:** In a gas mixture, the partial pressure of a component gas is proportional to its:
+*   **Correct Answer:** **(c) Mole (or volume) fraction**
+    > **Note:** According to Dalton's law of partial pressures, the partial pressure of a component in a gas mixture equals the total pressure multiplied by its mole fraction.
+
+### 4. Molarity vs Molality
+**Question:** Molarity differs from molality because molarity depends on:
+*   **Correct Answer:** **(b) Temperature and volume**
+    > **Note:** Molarity is moles of solute per liter of solution, and since volume changes with temperature, molarity is temperature-dependent. Molality (moles per kg of solvent) is temperature-independent.
+
+### 5. Nitrogen Reporting Units
+**Question:** Reporting nitrogen as mg N/L instead of mg/L of individual species is useful because it:
+*   **Correct Answer:** **(b) Accounts for all nitrogen forms on a common basis**
+    > **Note:** Expressing nitrogen concentration as mg N/L allows comparison of different nitrogen species (nitrate, nitrite, ammonia) on a common elemental basis, simplifying analysis and regulatory compliance.
+
+### 6. Volatile Suspended Solids (VSS)
+**Question:** Volatile suspended solids (VSS) are primarily an indicator of:
+*   **Correct Answer:** **(a) Organic matter content**
+    > **Note:** VSS represents the portion of suspended solids that volatilizes at high temperatures (typically 550°C), which corresponds primarily to organic matter, making it useful for assessing biological treatment processes.
+
+### 7. Method Detection Limit (MDL)
+**Question:** The Method Detection Limit (MDL) represents:
+*   **Correct Answer:** **(d) The minimum concentration measurable with 99% confidence**
+    > **Note:** MDL is the minimum concentration that can be measured and reported with 99% confidence that the value is greater than zero, establishing the lower bound of reliable analytical measurements.
+
+### 8. Central Tendency for Log-Normal Data
+**Question:** When environmental data are log-normally distributed, the most appropriate measure of central tendency is the:
+*   **Correct Answer:** **(d) Geometric mean**
+    > **Note:** For log-normally distributed data, the geometric mean is the most appropriate measure because it accounts for the skewed nature of the distribution. It is calculated as the nth root of the product of n values.
+
+### 9. Partial Pressure Calculation
+**Question:** What is the partial pressure of CO₂ if its concentration is 420 ppmv and atmospheric pressure is 1 atm?
+*   **Correct Answer:** **(b) 4.2 × 10⁻⁴ atm**
+    > **Note:** Partial pressure = (concentration in ppmv / 10⁶) × total pressure = (420 / 10⁶) × 1 atm = 4.2 × 10⁻⁴ atm.
+
+### 10. Water Analysis Validation
+**Question:** A mineral water analysis gives total cations = 1.0 × 10⁻³ eqv/L and total anions = 0.95 × 10⁻³ eqv/L. Is the analysis acceptable?
+*   **Correct Answer:** **(a) Yes**
+    > **Note:** The electroneutrality check requires total cations to approximately equal total anions. Accepted difference is <5% using c-a/c+a * 100 = 2.56%.
+
+---
