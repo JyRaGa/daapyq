@@ -428,12 +428,15 @@ F = \sum m(1,2,6,7)
 **Course:** Digital Logic Design (CEECC03/ITECC03/CAECC03)
 **Time:** 1.5 hrs | **Max Marks:** 15
 
-### **Q1**
-* **(a)** Determine the base of the given numbers:
-    * i)$$((41)_b)^{1/2} = (5)_{10}$$
-    * ii) $$(16)_{10} = (100)_b$$
-* **(b)** Simplify the given expression using Boolean algebra and implement using NAND gates only.
-    $$F = A'B'C + (A+B+C')' + A'B'C'D$$
+### Q1
+- **(a)** Determine the base of the given numbers:
+  - (i) $$\sqrt{(41)_b} = (5)_{10}$$
+  - (ii) $$(16)_{10} = (100)_b$$
+- **(b)** Simplify...
+  $$
+  F = A'B'C + (A + B + C')' + A'B'C'D
+  $$
+
 
 ### **Q2**
 * **(a)** Design a BCD to Excess-3 code converter.
