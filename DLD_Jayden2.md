@@ -210,35 +210,50 @@ VHDL coding questions are generally restricted to a narrow set of standard compo
 
 ---
 
-## **5. Mid-Semester Examination (February 2020)**
-**Course:** Digital Logic Design (CEECC03/ITECC03/CAECC03)
-**Time:** 1.5 hrs | **Max Marks:** 15
 
 ### **Q1**
-* **(a)** Determine the base of the given numbers:
-    * i) $((41)_b)^{1/2} = (5)_{10}$
-    * ii) $(16)_{10} = (100)_b$
-* **(b)** Simplify the given expression using Boolean algebra and implement using NAND gates only.
-    $$F = A'B'C + (A+B+C')' + A'B'C'D$$
+
+- **(a)** Determine the base of the given numbers:  
+  - (i) \(\bigl((41)_b\bigr)^{1/2} = (5)_{10}\)  
+  - (ii) \((16)_{10} = (100)_b\)  
+- **(b)** Simplify the given expression using Boolean algebra and implement using NAND gates only:
+
+\[
+F = A'B'C + (A + B + C')' + A'B'C'D
+\]
 
 ### **Q2**
-* **(a)** Design a BCD to Excess-3 code converter.
-* **(b)** Implement 4:16 decoder using 2:4 decoder.
+
+- **(a)** Design a BCD-to-Excess-3 code converter.  
+- **(b)** Implement a 4:16 decoder using 2:4 decoders.
 
 ### **Q3**
-* **(a)** Minimize the given function using Quine Mc-cluskey method. Also, write EPI and PI.
-    $$F(A,B,C,D) = \Pi M(2,3,8,12,13) \cdot d(10,14)$$
-* **(b)** Implement the given function using 8x1 Mux:
-    $$F(A,B,C,D) = \sum m(0,1,6,7,8,9,13,14,15)$$
+
+- **(a)** Minimize the given function using the Quine–McCluskey method; also write EPIs and PIs:
+
+\[
+F(A,B,C,D) = \Pi M(2,3,8,12,13),\quad d(10,14)
+\]
+
+- **(b)** Implement the given function using an \(8 \times 1\) MUX:
+
+\[
+F(A,B,C,D) = \sum m(0,1,6,7,8,9,13,14,15)
+\]
 
 ### **Q4**
-* **(a)** Implement full adder using PLA.
-* **(b)** Write the differences between Latches and Flip Flops.
+
+- **(a)** Implement a full adder using a PLA.  
+- **(b)** Write the differences between latches and flip-flops.
 
 ### **Q5**
-* **(a)** Draw and explain BCD adder.
-* **(b)** Implement the given function using a 3x8 complementary decoder.
-    $$F = \sum m(1,2,6,7)$$
+
+- **(a)** Draw and explain a BCD adder.  
+- **(b)** Implement the given function using a \(3 \times 8\) complementary decoder:
+
+\[
+F = \sum m(1,2,6,7)
+\]
 
 ---
 
