@@ -1,4 +1,8 @@
-﻿Here is the updated, distinct breakdown of "Who contributed what" across all 79 questions:
+
+ # Digital Logic for NSUT IT breakdown (based on 6 fresources papers)
+ ---
+ # Section 1 : Relevant Books
+ ---
  ### 1. Morris Mano (The Core Design Source)
  **Used for:** ~65% of questions.
  * **Topics:** Combinational Logic (MUX, Decoders), Sequential Logic (Counters, Registers), and FSMs.* **Proof in New Paper:** **Q4b** (Universal Shift Register) is a direct adaptation of the standard "Universal Shift Register" diagram found in Mano (Fig 6.7 in widely used editions).* **Proof in New Paper:** **Q5a** (Mealy/Moore FSM) and **Q1b** (Majority Circuit) are standard Mano exercises.
@@ -21,6 +25,8 @@
 | **VHDL Code (Syntax, Styles)** | **J. Bhasker** (Chapters 1-4) |
 | **Logic Families (TTL, CMOS, Parameters)** | **R.P. Jain** (Chapter on Logic Families) |
 | **Number Systems & Arithmetic** | **Anand Kumar** (Chapter 1) |
+---
+# Section 2: Repeated Patterns
 
 ### Analysis of Recurring Patterns and Question Frequencies
 
@@ -49,7 +55,7 @@ Many "Design" questions that appear to be mathematical word problems (e.g., Sep 
 Three specific circuit configurations appear most frequently. Mastery of these diagrams is essential.
 
 **A. CMOS Logic Gates (Transistor Level)**
-[attachment_0](attachment)
+
 Recurring in Nov 2022 (Q1c), Sep 2023 (Q4a), and July 2023 (Q2a). Candidates are often required to draw 2-input NAND and NOR gates using Complementary MOS (PMOS pull-up and NMOS pull-down) networks.
 
 **B. Sequence Detectors**
@@ -66,9 +72,9 @@ VHDL coding questions are generally restricted to a narrow set of standard compo
 1.  **4x1 Multiplexer** (Behavioral & Structural Styles) – *Refer: Apr-May 2024, July 2023.*
 2.  **JK Flip Flop** (Dataflow, Behavioral, & Structural Styles) – *Refer: July 2023, Nov 2022.*
 3.  **Counters** (Mod-N, Up/Down, or Synchronous) – *Refer: Apr-May 2024.*
-4.  
-   
-# Comprehensive Digital Logic Design Question Bank
+    
+---   
+# Section 3: Comprehensive Digital Logic Design Question Bank
 **Compiled from 6 Exam Papers (2020 - 2024)**
 
 ---
