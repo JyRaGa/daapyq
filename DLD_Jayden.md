@@ -137,7 +137,7 @@ VHDL coding questions are generally restricted to a narrow set of standard compo
 | Q. No. | Question | Marks | CO |
 | :--- | :--- | :--- | :--- |
 | **1a** | Express the logic function in terms of minterms<br>$$f(P,Q,R) = PQ + Q\bar{R} + P\bar{R}$$| 2 | CO1 |
-| **1b** | Find out the value of w,y, and z in the following equality<br>$$(10w1z)_2 \times (15)_{10} = (y01011001)_2$$ | 2 | CO1 |
+| **1b** | Find out the value of w,y, and z in the following equality<br>$`(10w1z)_2 \times (15)_{10} = (y01011001)_2`$ | 2 | CO1 |
 | **2a** | Implement the following Boolean function with a 4x1 multiplexer and external gates. Connect inputs C, D as selection lines S1, S0 and A, B as input lines.<br>$$F(A, B, C, D) = \sum m(0, 6, 7, 9, 11, 12, 14, 15)$$ | 2 | CO1 |
 | **2b** | A combinational circuit is specified by the following Boolean function: $F1(A, B, C) = \sum m(0, 2, 5, 7)$. Implement the circuit with a decoder and external logic gates. | 2 | CO2 |
 | **3a** | Convert the logic function $X(w,y,z) = \prod M(0,2,3)$ into SOP form and list the corresponding product terms. | 2 | CO2 |
@@ -216,7 +216,7 @@ VHDL coding questions are generally restricted to a narrow set of standard compo
 
 ### **Q1**
 * **(a)** Determine the base of the given numbers:
-    * i) $((41)_b)^{1/2} = (5)_{10}$
+    * i) $`((41)_b)^{1/2} = (5)_{10}`$
     * ii) $(16)_{10} = (100)_b$
 * **(b)** Simplify the given expression using Boolean algebra and implement using NAND gates only.
     $$F = A'B'C + (A+B+C')' + A'B'C'D$$
