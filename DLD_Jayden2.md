@@ -210,17 +210,15 @@ VHDL coding questions are generally restricted to a narrow set of standard compo
 
 ---
 
+### Q1
+- **(a)** Determine the base of the given numbers:
+  - (i) $$\sqrt{(41)_b} = (5)_{10}$$
+  - (ii) $$(16)_{10} = (100)_b$$
+- **(b)** Simplify...
+  $$
+  F = A'B'C + (A + B + C')' + A'B'C'D
+  $$
 
-### **Q1**
-
-- **(a)** Determine the base of the given numbers:  
-  - (i) \(\bigl((41)_b\bigr)^{1/2} = (5)_{10}\)  
-  - (ii) \((16)_{10} = (100)_b\)  
-- **(b)** Simplify the given expression using Boolean algebra and implement using NAND gates only:
-
-\[
-F = A'B'C + (A + B + C')' + A'B'C'D
-\]
 
 ### **Q2**
 
