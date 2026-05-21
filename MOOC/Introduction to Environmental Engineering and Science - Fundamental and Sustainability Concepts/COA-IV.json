@@ -1,0 +1,762 @@
+[
+    {
+        "Title": "L-1.1 Functional Units of Computer | Basic Structure of Computer | CSA | COA | Shanu Kuttan | Hindi",
+        "Duration": "30 Minutes, 0 Seconds"
+    },
+    {
+        "Title": "L-1.2 Basic Operational Concepts | Registers|Connection between Processor & Memory| COA|Shanu Kuttan",
+        "Duration": "23 Minutes, 6 Seconds"
+    },
+    {
+        "Title": "L-1.3 Bus Structure | Type of Buses | Address Bus, Data Bus, Control Bus | CSA | COA |Shanu Kuttan",
+        "Duration": "12 Minutes, 53 Seconds"
+    },
+    {
+        "Title": "L-1.4:Types of Buses (Address, Data and Control) in Computer Organization and Architecture",
+        "Duration": "7 Minutes, 59 Seconds"
+    },
+    {
+        "Title": "COA | Adder Circuits | Bharat Acharya Education",
+        "Duration": "47 Minutes, 8 Seconds"
+    },
+    {
+        "Title": "Register Transfer |Microoperations|Register Transfer Language | Computer Organization & Architecture",
+        "Duration": "13 Minutes, 51 Seconds"
+    },
+    {
+        "Title": "Bus and Memory Transfer || Common Bus System For 4 registers || Computer Organization & Architecture",
+        "Duration": "15 Minutes, 4 Seconds"
+    },
+    {
+        "Title": "Three-State Bus Buffer || Tri State Buffer ||Computer Organization & Architecture| Common Bus System",
+        "Duration": "9 Minutes, 37 Seconds"
+    },
+    {
+        "Title": "L-1.4 Common Bus System using Multiplexer | Concept & Numerical | CSA | COA | Shanu Kuttan | Hindi",
+        "Duration": "23 Minutes, 26 Seconds"
+    },
+    {
+        "Title": "L-1.5: Common bus system using multiplexer | Computer organization and Architecture",
+        "Duration": "11 Minutes, 26 Seconds"
+    },
+    {
+        "Title": "L-1.6: Common Bus system| How basic computer works",
+        "Duration": "19 Minutes, 11 Seconds"
+    },
+    {
+        "Title": "Arithmetic Microoperations || 4 bit Binary Adder || Subtractor || Incrementer || Arithmetic Circuit",
+        "Duration": "30 Minutes, 27 Seconds"
+    },
+    {
+        "Title": "Logic Microoperations || Applications ||Hardware Implementation|Computer Organization & Architecture",
+        "Duration": "27 Minutes, 47 Seconds"
+    },
+    {
+        "Title": "Shift Microoperations || Hardware Implementation || Logical || Circular |Arithmetic | shifter rotate",
+        "Duration": "30 Minutes, 6 Seconds"
+    },
+    {
+        "Title": "Arithmetic Logic Shift Unit ||ALU ||  One Stage Of Arithmetic Logic Shift Unit|Computer Organization",
+        "Duration": "20 Minutes, 52 Seconds"
+    },
+    {
+        "Title": "Stack Organization In Computer Organization || Computer Architecture || Register Stack |Memory Stack",
+        "Duration": "25 Minutes, 38 Seconds"
+    },
+    {
+        "Title": "L-1.5 Instruction Format | 3,2,1,0-address instruction format | CPU Organizations| CSA | COA",
+        "Duration": "33 Minutes, 5 Seconds"
+    },
+    {
+        "Title": "L-1.6 Question1 | Three,Two,One,Zero-address instructions | Instruction Format | CSA | Shanu Kuttan",
+        "Duration": "16 Minutes, 49 Seconds"
+    },
+    {
+        "Title": "L-1.7 Question2 | Three,Two,One,Zero address instructions | Instruction Format | CSA | Shanu Kuttan",
+        "Duration": "13 Minutes, 26 Seconds"
+    },
+    {
+        "Title": "L-1.8 Question3 | Three,Two,One,Zero address instructions | Instruction Format | CSA | Shanu Kuttan",
+        "Duration": "22 Minutes, 48 Seconds"
+    },
+    {
+        "Title": "L-1.9 Question4 | Three,Two,One,Zero address instructions | Instruction Format | CSA | Shanu Kuttan",
+        "Duration": "11 Minutes, 35 Seconds"
+    },
+    {
+        "Title": "L-1.10 Question5 | Three,Two,One,Zero address instructions | Instruction Format | CSA | Shanu Kuttan",
+        "Duration": "16 Minutes, 55 Seconds"
+    },
+    {
+        "Title": "L-1.11 Addressing Modes |  Concept & Types of Addressing Modes | Part 1 | CSA  COA | Shanu Kuttan",
+        "Duration": "18 Minutes, 22 Seconds"
+    },
+    {
+        "Title": "L-1.12 Types of Addressing Modes | 10 types of modes  | Part 2 | CSA | COA | Shanu Kuttan | Hindi",
+        "Duration": "38 Minutes, 12 Seconds"
+    },
+    {
+        "Title": "L-1.13 Addressing Modes Numerical Example | Part 3 | CSA | COA | Shanu Kuttan | Hindi",
+        "Duration": "18 Minutes, 44 Seconds"
+    },
+    {
+        "Title": "L-1.14 Question1 Addressing Modes | Part 4 | CSA | COA | Shanu Kuttan | Hindi",
+        "Duration": "9 Minutes, 18 Seconds"
+    },
+    {
+        "Title": "L-1.15 Question2 Addressing Modes | Part 5 | CSA | COA | Shanu Kuttan | Hindi",
+        "Duration": "8 Minutes, 34 Seconds"
+    },
+    {
+        "Title": "COA | Addressing Modes | Notes at the end | Bharat Acharya Education",
+        "Duration": "55 Minutes, 43 Seconds"
+    },
+    {
+        "Title": "Addressing Modes in Hindi  |  Part 01 |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "12 Minutes, 49 Seconds"
+    },
+    {
+        "Title": "Addressing Modes in Hindi  |  Part 02 |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "14 Minutes, 12 Seconds"
+    },
+    {
+        "Title": "Addressing Modes In Computer Organization || Computer Architecture || Types Of Addressing Modes",
+        "Duration": "14 Minutes, 23 Seconds"
+    },
+    {
+        "Title": "L-1.16  Computer Instructions & Types | Memory Reference| Register Reference| Input Output| CSA |COA",
+        "Duration": "21 Minutes, 52 Seconds"
+    },
+    {
+        "Title": "Instruction Codes || Instruction Format || Direct and Indirect Address || Computer Organization CO",
+        "Duration": "9 Minutes, 26 Seconds"
+    },
+    {
+        "Title": "Computer Instructions||Memory Reference||Register Reference||Input Output||Computer Organization",
+        "Duration": "18 Minutes, 23 Seconds"
+    },
+    {
+        "Title": "L-1.17 Instructions Cycle | Flowchart | Fetch-Decode-Execute | COA | CSA | Shanu Kuttan | Hindi",
+        "Duration": "21 Minutes, 0 Seconds"
+    },
+    {
+        "Title": "Instruction Cycle In Computer Organization || Architecture ||Flowchart|Register Transfer Fetch phase",
+        "Duration": "21 Minutes, 29 Seconds"
+    },
+    {
+        "Title": "COA | Instruction Cycle State Transition Diagram | Bharat Acharya Education",
+        "Duration": "23 Minutes, 25 Seconds"
+    },
+    {
+        "Title": "Instruction Cycles and Interrupt Mechanism in Hindi |Computer Organization and Architecture Lectures",
+        "Duration": "8 Minutes, 9 Seconds"
+    },
+    {
+        "Title": "Memory Reference Instructions || Computer Organization",
+        "Duration": "17 Minutes, 22 Seconds"
+    },
+    {
+        "Title": "Register Reference Instructions || Computer Organization",
+        "Duration": "11 Minutes, 8 Seconds"
+    },
+    {
+        "Title": "Input Output Instructions || Computer Organization",
+        "Duration": "7 Minutes, 52 Seconds"
+    },
+    {
+        "Title": "Interrupt Cycle in Computer Organization || Flowchart || Computer Architecture",
+        "Duration": "14 Minutes, 46 Seconds"
+    },
+    {
+        "Title": "L-1.21 Control Unit in Computer Architecture | Control Unit Block Diagram & Types | COA | CSA",
+        "Duration": "14 Minutes, 35 Seconds"
+    },
+    {
+        "Title": "L-1.22 Hardwired Control Unit in Computer Architecture | Block Diagram | Working | COA | CSA",
+        "Duration": "11 Minutes, 14 Seconds"
+    },
+    {
+        "Title": "Timing and Control || Design Of Hardwired Control Unit || Computer Organization",
+        "Duration": "16 Minutes, 24 Seconds"
+    },
+    {
+        "Title": "Hardwired Control Unit in Hindi  |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "8 Minutes, 49 Seconds"
+    },
+    {
+        "Title": "L-1.23 Microprogrammed Control Unit in Computer Architecture | Block Diagram | Working | COA | CSA",
+        "Duration": "15 Minutes, 36 Seconds"
+    },
+    {
+        "Title": "Micro programmed control unit in Hindi  |  COA | Computer Organization and Architecture Lecture",
+        "Duration": "9 Minutes, 23 Seconds"
+    },
+    {
+        "Title": "Hardwired CU vs Micro-programmed CU |  COA | Computer Organization and Architecture Lecture",
+        "Duration": "11 Minutes, 16 Seconds"
+    },
+    {
+        "Title": "L-1.24 Microprogrammed Control Unit vs Hardwired Control Unit | Computer Architecture | COA | CSA",
+        "Duration": "3 Minutes, 41 Seconds"
+    },
+    {
+        "Title": "L-1.25 Microinstruction Format in Computer Architecture | Computer Organization | COA | CSA",
+        "Duration": "21 Minutes, 51 Seconds"
+    },
+    {
+        "Title": "Control Memory || Microprogrammed Control Organization || Computer Organization Architecture || Unit",
+        "Duration": "11 Minutes, 25 Seconds"
+    },
+    {
+        "Title": "Address Sequencing || Microprogram Sequencer || Computer Organization Architecture",
+        "Duration": "10 Minutes, 47 Seconds"
+    },
+    {
+        "Title": "Design of Control Unit || Microprogrammed Control || Computer Organization Architecture",
+        "Duration": "10 Minutes, 33 Seconds"
+    },
+    {
+        "Title": "Micro Program Example in Computer Organization Architecture Example || Micro Programmed Control",
+        "Duration": "35 Minutes, 53 Seconds"
+    },
+    {
+        "Title": "COA | Hardwired Control Unit | State Table, Delay Element, Sequence Counter  | Bharat Acharya",
+        "Duration": "41 Minutes, 25 Seconds"
+    },
+    {
+        "Title": "COA | Microprogrammed Control Unit | Wilkes Design | Bharat Acharya Education",
+        "Duration": "1 Hours, 14 Minutes, 53 Seconds"
+    },
+    {
+        "Title": "COA | Typical Microprogrammed Control Unit | Single Address Field | Bharat Acharya Education",
+        "Duration": "12 Minutes, 26 Seconds"
+    },
+    {
+        "Title": "COA | Horizontal, Vertical | Microinstruction Formats | Control Unit | Nanoprograms | Bharat Acharya",
+        "Duration": "21 Minutes, 28 Seconds"
+    },
+    {
+        "Title": "L-1.18 Subroutines and Parameter Passing | Subroutine Nesting | Processor Stack | COA | CSA | Shanu",
+        "Duration": "22 Minutes, 18 Seconds"
+    },
+    {
+        "Title": "Design of Basic Computer In Computer Organization Architecture || Complete Computer Description",
+        "Duration": "18 Minutes, 46 Seconds"
+    },
+    {
+        "Title": "Addition and Subtraction with Signed Magnitude Data and 2's Complement Data In Computer Organization",
+        "Duration": "22 Minutes, 44 Seconds"
+    },
+    {
+        "Title": "COA | Signed Number Representation | Bharat Acharya Education",
+        "Duration": "33 Minutes, 45 Seconds"
+    },
+    {
+        "Title": "COA | Multiplication | Booths Algorithm | Bharat Acharya Education",
+        "Duration": "35 Minutes, 46 Seconds"
+    },
+    {
+        "Title": "Booth's Algorithm with Solved Example in Hindi | part 1 | COA Lectures",
+        "Duration": "16 Minutes, 12 Seconds"
+    },
+    {
+        "Title": "Booth's Algorithm with Solved Example in Hindi | part 2| COA Lectures",
+        "Duration": "11 Minutes, 45 Seconds"
+    },
+    {
+        "Title": "Booth's Algorithm with Solved Example in Hindi | part 3| COA Lectures",
+        "Duration": "9 Minutes, 42 Seconds"
+    },
+    {
+        "Title": "Booth Multiplication algorithm with example || Multiplication with signed 2's complement data |CO CA",
+        "Duration": "18 Minutes, 57 Seconds"
+    },
+    {
+        "Title": "Multiplication Algorithm With Signed Magnitude Data In Computer Organization Architecture",
+        "Duration": "18 Minutes, 17 Seconds"
+    },
+    {
+        "Title": "Array Multiplier In Computer Organization || Multiplication Algorithm || Computer Architecture",
+        "Duration": "10 Minutes, 4 Seconds"
+    },
+    {
+        "Title": "Division Algorithm In Computer Organization Architecture || Restoring Algorithm | Signed Magnitude",
+        "Duration": "27 Minutes, 24 Seconds"
+    },
+    {
+        "Title": "COA | Division | Restoring and Non-restoring Division | Bharat Acharya Education",
+        "Duration": "31 Minutes, 48 Seconds"
+    },
+    {
+        "Title": "Restoring Division Part 01 in Hindi |   COA | Computer Organization and Architecture Lectures",
+        "Duration": "18 Minutes, 55 Seconds"
+    },
+    {
+        "Title": "Restoring Division Part 02 in Hindi |   COA | Computer Organization and Architecture Lectures",
+        "Duration": "11 Minutes, 5 Seconds"
+    },
+    {
+        "Title": "Non Restoring Division Part 01 in Hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "13 Minutes, 0 Seconds"
+    },
+    {
+        "Title": "Non Restoring Division Part 02 in Hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "10 Minutes, 52 Seconds"
+    },
+    {
+        "Title": "Floating Point Addition and Subtraction Algorithm - Floating Point Arithmetic -Computer Organization",
+        "Duration": "17 Minutes, 34 Seconds"
+    },
+    {
+        "Title": "Floating Point Multiplication Algorithm-Floating Point Arithmetic-Computer Organization Architecture",
+        "Duration": "10 Minutes, 45 Seconds"
+    },
+    {
+        "Title": "Floating Point Division Algorithm - Floating Point Arithmetic - Computer Organization Architecture",
+        "Duration": "10 Minutes, 4 Seconds"
+    },
+    {
+        "Title": "COA | Floating Point Number Formats IEEE 754 | Bharat Acharya Education",
+        "Duration": "36 Minutes, 14 Seconds"
+    },
+    {
+        "Title": "COA | NaN, Infinity, Zero, DeNormal | Floating Point Extreme Cases | Bharat Acharya Education",
+        "Duration": "33 Minutes, 29 Seconds"
+    },
+    {
+        "Title": "COA | Floating Point Conversion Numericals | Bharat Acharya Education",
+        "Duration": "13 Minutes, 56 Seconds"
+    },
+    {
+        "Title": "Floating Point Number Representation in IEEE 754 in Hindi | COA Lectures",
+        "Duration": "16 Minutes, 20 Seconds"
+    },
+    {
+        "Title": "Decimal Arithmetic Unit In Computer Organization Architecture || BCD Adder || Subtraction||one stage",
+        "Duration": "25 Minutes, 37 Seconds"
+    },
+    {
+        "Title": "Decimal Arithmetic Operations In Computer Organization Architecture || Addition || Multiplication",
+        "Duration": "21 Minutes, 29 Seconds"
+    },
+    {
+        "Title": "L-1.20 RISC and CISC in Computer Architecture | COA | CSA | Dr. Shanu Kuttan",
+        "Duration": "23 Minutes, 41 Seconds"
+    },
+    {
+        "Title": "RISC || CISC || Computer Organization Architecture || Overlapped Register Windows || Reduced Instruc",
+        "Duration": "14 Minutes, 16 Seconds"
+    },
+    {
+        "Title": "COA | RISC vs CISC | Control Unit | Instruction Set Architecture | Bharat Acharya Education",
+        "Duration": "20 Minutes, 2 Seconds"
+    },
+    {
+        "Title": "RISC Microprocessor in hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "13 Minutes, 40 Seconds"
+    },
+    {
+        "Title": "CISC Microprocessor in hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "10 Minutes, 38 Seconds"
+    },
+    {
+        "Title": "Instruction Formats In Computer Organization Architecture|Three Address Instructions Two One Zero",
+        "Duration": "22 Minutes, 38 Seconds"
+    },
+    {
+        "Title": "Data Transfer Instructions in Computer Organization || Computer Architecture",
+        "Duration": "14 Minutes, 3 Seconds"
+    },
+    {
+        "Title": "Data Manipulation Instructions In Computer Organization ||Architecture| Arithmetic | Logical | Shift",
+        "Duration": "19 Minutes, 30 Seconds"
+    },
+    {
+        "Title": "Program Control Instructions In Computer Organization || Computer Architecture",
+        "Duration": "18 Minutes, 17 Seconds"
+    },
+    {
+        "Title": "Design of Accumulator Logic in Computer Organization Architecture",
+        "Duration": "7 Minutes, 36 Seconds"
+    },
+    {
+        "Title": "L-3.1 Memory Hierarchy | Memory Organisation | Computer System Architecture | COA | CSA",
+        "Duration": "9 Minutes, 46 Seconds"
+    },
+    {
+        "Title": "Memory Hierarchy  In Computer Organization Architecture || Memory Organization",
+        "Duration": "14 Minutes, 52 Seconds"
+    },
+    {
+        "Title": "COA | Memory Hierarchy | RAM, ROM, SRAM, DRAM, Cache, Secondary Memory | Bharat Acharya Education",
+        "Duration": "58 Minutes, 15 Seconds"
+    },
+    {
+        "Title": "Memory and its characteristics in Hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "10 Minutes, 12 Seconds"
+    },
+    {
+        "Title": "Memory Hierarchy and Locality of Reference  in Computer Architecture in Hindi | COA Lectures",
+        "Duration": "14 Minutes, 7 Seconds"
+    },
+    {
+        "Title": "L-3.2 Main Memory | Internal Structure & its Types RAM & ROM |SRAM, DRAM, PROM, EPROM, EEPROM | COA",
+        "Duration": "16 Minutes, 22 Seconds"
+    },
+    {
+        "Title": "L-3.3 Static RAM vs  Dynamic | RAM  SRAM & DRAM | Computer Architecture | COA | CSA | Shanu Kuttan",
+        "Duration": "6 Minutes, 26 Seconds"
+    },
+    {
+        "Title": "DRAM ( Dynamic RAM ) in Hindi | COA | Computer Organization and Architecture Lectures",
+        "Duration": "8 Minutes, 12 Seconds"
+    },
+    {
+        "Title": "SRAM (Static RAM) in Hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "9 Minutes, 17 Seconds"
+    },
+    {
+        "Title": "L-3.4 RAM & ROM Chips | Memory Address Map | Computer Architecture | CSA | COA | Shanu Kuttan",
+        "Duration": "20 Minutes, 56 Seconds"
+    },
+    {
+        "Title": "Main Memory (RAM) In Computer Organization Architecture - Memory Connection to CPU",
+        "Duration": "17 Minutes, 45 Seconds"
+    },
+    {
+        "Title": "L-3.5 Associative Memory | Memory Organisation | Computer System Architecture | COA",
+        "Duration": "18 Minutes, 20 Seconds"
+    },
+    {
+        "Title": "Associative Memory In Computer Organization Architecture",
+        "Duration": "18 Minutes, 54 Seconds"
+    },
+    {
+        "Title": "L-3.6 Locality of Reference in Cache Memory | Memory Organisation | COA | Shanu Kuttan",
+        "Duration": "11 Minutes, 13 Seconds"
+    },
+    {
+        "Title": "L-3.7 Cache Memory | Hit Ratio-Miss Penalty-Average Access Time | Memory Organisation | COA | CSA",
+        "Duration": "17 Minutes, 48 Seconds"
+    },
+    {
+        "Title": "Cache Memory  Full Concept with working in Hindi | Computer Organization and Architecture Lectures",
+        "Duration": "8 Minutes, 32 Seconds"
+    },
+    {
+        "Title": "L-3.8 Levels of Cache Memory | L1, L2, L3 Cache | Memory Organisation | COA | Shanu Kuttan",
+        "Duration": "3 Minutes, 27 Seconds"
+    },
+    {
+        "Title": "L-3.9 What is Cache Mapping? | Cache Mapping Types | Memory Organisation| CSA | COA | Shanu Kuttan",
+        "Duration": "4 Minutes, 42 Seconds"
+    },
+    {
+        "Title": "L-3.10 Associative Mapping in Cache Memory | Cache Mapping| Memory Organisation | COA",
+        "Duration": "6 Minutes, 48 Seconds"
+    },
+    {
+        "Title": "L-3.11 Direct Mapping in Cache Memory | Cache Mapping | Memory Organisation |COA | CSA |Shanu Kuttan",
+        "Duration": "18 Minutes, 25 Seconds"
+    },
+    {
+        "Title": "L-3.12 Set Associative Mapping in Cache Memory | Cache Mapping | Memory Organisation| COA | CSA",
+        "Duration": "12 Minutes, 57 Seconds"
+    },
+    {
+        "Title": "Cache Memory ||Direct Mapping|Associative Mapping-Set Associative-Computer Organization Architecture",
+        "Duration": "15 Minutes, 3 Seconds"
+    },
+    {
+        "Title": "L-3.13 Cache Mapping Solved Questions | Memory Organisation | CSA | COA | Shanu Kuttan | Hindi",
+        "Duration": "11 Minutes, 30 Seconds"
+    },
+    {
+        "Title": "L-3.14 Virtual Memory & Paging | Complete Concept | Memory Organisation | COA | Shanu Kuttan",
+        "Duration": "28 Minutes, 48 Seconds"
+    },
+    {
+        "Title": "Virtual Memory In Computer Organization Architecture",
+        "Duration": "14 Minutes, 52 Seconds"
+    },
+    {
+        "Title": "COA | Paging Explained in detail | Virtual Memory, TLB, Page Replacement | Bharat Acharya Education",
+        "Duration": "47 Minutes, 31 Seconds"
+    },
+    {
+        "Title": "Virtual Memory & Paging concept in Hindi  | COA | Computer Organization and Architecture Lectures",
+        "Duration": "10 Minutes, 50 Seconds"
+    },
+    {
+        "Title": "Demand Paging in Hindi  | COA | Computer Organization and Architecture Lectures",
+        "Duration": "11 Minutes, 41 Seconds"
+    },
+    {
+        "Title": "Memory Segmentation in Hindi  | COA | Computer Organization and Architecture Lectures",
+        "Duration": "11 Minutes, 26 Seconds"
+    },
+    {
+        "Title": "L-3.15 Page Replacement Algorithms | Page Fault | Memory Organisation | COA | CSA | Shanu Kuttan",
+        "Duration": "5 Minutes, 16 Seconds"
+    },
+    {
+        "Title": "L-3.16 FIFO Page Replacement Algorithm | Computer Architecture | COA | CSA | Shanu Kuttan",
+        "Duration": "7 Minutes, 10 Seconds"
+    },
+    {
+        "Title": "L-3.17 LRU Page Replacement Algorithm | Computer Architecture | COA |  CSA | Shanu Kuttan | Hindi",
+        "Duration": "6 Minutes, 38 Seconds"
+    },
+    {
+        "Title": "L-3.18 Optimal OPT Page Replacement Algorithm | Computer Architecture | CSA | COA | Shanu Kuttan",
+        "Duration": "5 Minutes, 44 Seconds"
+    },
+    {
+        "Title": "COA | Numerical on Page Replacements | FIFO, LRU, LFU, OPT | Hit Ratio | Bharat Acharya Education",
+        "Duration": "31 Minutes, 40 Seconds"
+    },
+    {
+        "Title": "L-3.19 Memory Interleaving | High order & Low order Interleaving | COA | CSA | Shanu Kuttan | Hindi",
+        "Duration": "13 Minutes, 22 Seconds"
+    },
+    {
+        "Title": "L-3.20 High Order Memory Interleaving |Memory Interleaving | COA | CSA | Shanu Kuttan | Hindi",
+        "Duration": "12 Minutes, 58 Seconds"
+    },
+    {
+        "Title": "L-3.21 Low Order Memory Interleaving |Memory Interleaving | COA | CSA | Shanu Kuttan | Hindi",
+        "Duration": "10 Minutes, 35 Seconds"
+    },
+    {
+        "Title": "Memory Interleaved in Hindi | COA | Computer Organization and Architecture Lectures",
+        "Duration": "11 Minutes, 36 Seconds"
+    },
+    {
+        "Title": "L-4.1 I/O Interface | Input Output Interface | I/O Commands | Computer Architecture | COA | CSA",
+        "Duration": "17 Minutes, 51 Seconds"
+    },
+    {
+        "Title": "Peripheral Devices In Computer Organization Architecture  ||  Input Output Organization",
+        "Duration": "13 Minutes, 45 Seconds"
+    },
+    {
+        "Title": "Input Output Interface - Memory Mapped I/O - Isolated I/O - Computer Organization Architecture",
+        "Duration": "13 Minutes, 6 Seconds"
+    },
+    {
+        "Title": "L-4.2 Isolated I/O vs. Memory Mapped I/O | I/O Mapping | Computer Architecture | COA | CSA",
+        "Duration": "13 Minutes, 3 Seconds"
+    },
+    {
+        "Title": "L-4.3 Data Transfer |Parallel vs Serial Transfer | Synchronous vs  Asynchronous Data Transfer | COA",
+        "Duration": "8 Minutes, 6 Seconds"
+    },
+    {
+        "Title": "L-4.4 Asynchronous Data Transfer & its Types | Part 1 | Computer Architecture | COA | Shanu Kuttan",
+        "Duration": "7 Minutes, 31 Seconds"
+    },
+    {
+        "Title": "L-4.5 Strobe Control | Asynchronous Data Transfer | Part 2 | Computer Architecture | COA | CSA",
+        "Duration": "7 Minutes, 59 Seconds"
+    },
+    {
+        "Title": "L-4.6 Handshaking Method | Asynchronous Data Transfer| Part-3| Computer Architecture | COA | CSA",
+        "Duration": "9 Minutes, 53 Seconds"
+    },
+    {
+        "Title": "L-4.7 Asynchronous Serial Data Transfer | Computer Architecture | COA | CSA |  Shanu Kuttan",
+        "Duration": "6 Minutes, 31 Seconds"
+    },
+    {
+        "Title": "Asynchronous Data Transfer ||Strobe || Handshaking || Serial || Asynchronous Communication Interface",
+        "Duration": "21 Minutes, 24 Seconds"
+    },
+    {
+        "Title": "L-4.8 Modes of Data Transfer | 3 Types | Part-1| Computer Architecture | COA | CSA | Shanu Kuttan",
+        "Duration": "6 Minutes, 43 Seconds"
+    },
+    {
+        "Title": "Programmed I/O - Modes of Transfer - Computer Organization Architecture - Input Output Organization",
+        "Duration": "9 Minutes, 2 Seconds"
+    },
+    {
+        "Title": "L-4.9 Programmed I/O | Modes of Data Transfer | Part-2 | Computer Architecture| COA| CSA",
+        "Duration": "7 Minutes, 47 Seconds"
+    },
+    {
+        "Title": "Programmed IO  in Hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "12 Minutes, 14 Seconds"
+    },
+    {
+        "Title": "Interrupt driven IO  in Hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "11 Minutes, 47 Seconds"
+    },
+    {
+        "Title": "L-4.10 Interrupt Initiated I/O | Modes of Data Transfer |Part-3|Computer Architecture | COA | CSA",
+        "Duration": "6 Minutes, 51 Seconds"
+    },
+    {
+        "Title": "Interrupt Initiated I/O|Priority| Daisy Chaining|Parallel Priority Encoder|Cycle | Modes of Transfer",
+        "Duration": "21 Minutes, 33 Seconds"
+    },
+    {
+        "Title": "L-4.12 Interrupts | Part -1 | Computer Architecture | COA | CSA | Shanu Kuttan | Hindi",
+        "Duration": "15 Minutes, 21 Seconds"
+    },
+    {
+        "Title": "L-4.13 Interrupt Handling Mechanism | Interrupts | Part-2 | Computer Architecture | COA | CSA",
+        "Duration": "6 Minutes, 23 Seconds"
+    },
+    {
+        "Title": "L-4.14 Types of Interrupts | Interrupts | Part 3 | Computer Architecture | COA | Shanu Kuttan",
+        "Duration": "17 Minutes, 57 Seconds"
+    },
+    {
+        "Title": "L-4.15 Vectored & Non Vectored Interrupts | Interrupts | Part-4 | Computer Architecture | COA | CSA",
+        "Duration": "11 Minutes, 6 Seconds"
+    },
+    {
+        "Title": "L-4.16 Priority Interrupt | Polling | Daisy Chaining | Parallel Priority | Part 5 | COA | CSA",
+        "Duration": "17 Minutes, 17 Seconds"
+    },
+    {
+        "Title": "L-4.17 Daisy Chaining Priority Interrupt | Serial Priority | Interrupt | Part 6 | COA | CSA",
+        "Duration": "12 Minutes, 15 Seconds"
+    },
+    {
+        "Title": "L-4.18 Parallel Priority Interrupt | Priority Encoder | Interrupt | Part-7 | COA | CSA",
+        "Duration": "15 Minutes, 55 Seconds"
+    },
+    {
+        "Title": "L-4.11 Direct Memory Access (DMA) | Modes of Data Transfer | Part-4 | COA | CSA | Shanu Kuttan",
+        "Duration": "7 Minutes, 12 Seconds"
+    },
+    {
+        "Title": "Direct Memory Access ( DMA ) Controller in Computer Organization Architecture || Modes of Transfer",
+        "Duration": "12 Minutes, 12 Seconds"
+    },
+    {
+        "Title": "L-4.19 Direct Memory Access(DMA) Concept | Burst Transfer | Cycle Stealing | Part-1 | COA | CSA",
+        "Duration": "19 Minutes, 0 Seconds"
+    },
+    {
+        "Title": "L-4.20 DMA Controller | DMA Transfer | Part -2 | Computer Architecture | COA | CSA",
+        "Duration": "14 Minutes, 57 Seconds"
+    },
+    {
+        "Title": "Input - Output Processor ( IOP ) In Computer Organization Architecture",
+        "Duration": "8 Minutes, 39 Seconds"
+    },
+    {
+        "Title": "IO Module  in Hindi |  COA | Computer Organization and Architecture Lectures",
+        "Duration": "11 Minutes, 49 Seconds"
+    },
+    {
+        "Title": "Serial Communication In Computer Organization Architecture || Character Oriented Protocol || Bit",
+        "Duration": "9 Minutes, 42 Seconds"
+    },
+    {
+        "Title": "BUS and BUS Arbitration in  Hindi | COA | Computer Organization and Architecture Lectures",
+        "Duration": "10 Minutes, 58 Seconds"
+    },
+    {
+        "Title": "Bus Arbitration Explained | Daisy Chaining | Polling | Independent Request | Bharat Acharya",
+        "Duration": "38 Minutes, 17 Seconds"
+    },
+    {
+        "Title": "BUS Arbitration Daisy Chaining in Hindi | COA | Computer Organization and Architecture Lectures",
+        "Duration": "8 Minutes, 24 Seconds"
+    },
+    {
+        "Title": "BUS Arbitration Independent Request | COA Lectures in Hindi",
+        "Duration": "4 Minutes, 43 Seconds"
+    },
+    {
+        "Title": "Pipelining In Computer Organization Architecture",
+        "Duration": "12 Minutes, 11 Seconds"
+    },
+    {
+        "Title": "Arithmetic Pipeline || Computer Organization Architecture || Pipelining",
+        "Duration": "9 Minutes, 53 Seconds"
+    },
+    {
+        "Title": "Instruction Pipeline In Computer Organization Architecture || Pipelining",
+        "Duration": "9 Minutes, 53 Seconds"
+    },
+    {
+        "Title": "RISC Pipeline In Computer Organization Architecture || Three-Segment Instruction Pipeline",
+        "Duration": "13 Minutes, 59 Seconds"
+    },
+    {
+        "Title": "COA | Pipelining | Advantages and Pipeline Hazards | Bharat Acharya Education",
+        "Duration": "36 Minutes, 33 Seconds"
+    },
+    {
+        "Title": "Pipelining Concept | Example | Space Time Diagram | ACA | PPC Lect-23 | Shanu Kuttan l in Hindi",
+        "Duration": "21 Minutes, 37 Seconds"
+    },
+    {
+        "Title": "Linear Pipeline Processor | Asynchronous & Synchronous| Pipeline vs Non-Pipeline| Performance|PPC-24",
+        "Duration": "25 Minutes, 52 Seconds"
+    },
+    {
+        "Title": "Numerical on Pipelining and Performance | Part-1 | ACA | PPC | Lecture-25 | Shanu Kuttan | in Hindi",
+        "Duration": "12 Minutes, 0 Seconds"
+    },
+    {
+        "Title": "Parallel Processing in Computer Organization Architecture || Pipelining || Flynn classification comp",
+        "Duration": "9 Minutes, 49 Seconds"
+    },
+    {
+        "Title": "Vector Processing In Computer Organization Architecture || Memory Interleaving || Pipelining",
+        "Duration": "20 Minutes, 57 Seconds"
+    },
+    {
+        "Title": "Array Processors In Computer Organization Architecture || SIMD",
+        "Duration": "5 Minutes, 41 Seconds"
+    },
+    {
+        "Title": "Parallel Processing and applications | COA Lectures in Hindi",
+        "Duration": "13 Minutes, 42 Seconds"
+    },
+    {
+        "Title": "Flynn’s Classification | SISD,SIMD,MISD,MIMD |  PPC Lecture 4| Shanu Kuttan | Hindi",
+        "Duration": "18 Minutes, 35 Seconds"
+    },
+    {
+        "Title": "Characteristics of Multiprocessors In Computer Organization Architecture",
+        "Duration": "5 Minutes, 16 Seconds"
+    },
+    {
+        "Title": "Interconnection Structures in  Computer Organization Architecture",
+        "Duration": "12 Minutes, 29 Seconds"
+    },
+    {
+        "Title": "Inter Processor Arbitration in Computer Organization Architecture || Serial || Parallel || Dynamic",
+        "Duration": "14 Minutes, 9 Seconds"
+    },
+    {
+        "Title": "Inter Processor Communication and Synchronization in Computer Organization Architecture",
+        "Duration": "6 Minutes, 18 Seconds"
+    },
+    {
+        "Title": "Cache Coherence Problem in Computer Organization Architecture|| Solutions to Cache Coherence Problem",
+        "Duration": "10 Minutes, 54 Seconds"
+    },
+    {
+        "Title": "Cache Coherence Single & Multi Processor in Hindi |Computer Organization and Architecture Lectures",
+        "Duration": "11 Minutes, 53 Seconds"
+    },
+    {
+        "Title": "Cache Coherence Strategies in Hindi  | COA | Computer Organization and Architecture Lectures",
+        "Duration": "9 Minutes, 55 Seconds"
+    },
+    {
+        "Title": "Parallel Processing & Computing | Intro Part2| VonNeumann Architecture | Lect 2| Shanu Kuttan| Hindi",
+        "Duration": "12 Minutes, 9 Seconds"
+    },
+    {
+        "Title": "Complete COA Computer Organization & Architecture in one shot | Semester Exam | Hindi",
+        "Duration": "5 Hours, 54 Minutes, 41 Seconds"
+    }
+]
