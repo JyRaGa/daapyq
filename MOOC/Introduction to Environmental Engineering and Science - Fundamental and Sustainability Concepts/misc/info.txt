@@ -1,3 +1,5 @@
-Master Guides -> maximum slide content + previously asked assignments + 2026 Assignments
+Parent folder: 2026 Assignments, Master Guides -> maximum slide content + previously asked assignments + 2026 Assignments
+In misc folder (here)
 Exam Ready Notes -> 2026 Assignments + Spin off Questions
 Other notes/pdfs -> Slide based notes shared by friends
+Markdown files of masterguides 
